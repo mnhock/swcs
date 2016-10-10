@@ -1,32 +1,32 @@
 package swcs.args.after;
 
-import static swcs.args.after.ArgsException.ErrorCode.INVALID_ARGUMENT_FORMAT;
-import static swcs.args.after.ArgsException.ErrorCode.INVALID_ARGUMENT_NAME;
-import static swcs.args.after.ArgsException.ErrorCode.UNEXPECTED_ARGUMENT;
-
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
-import java.util.Set;
 
 public class Args {
 
     private final Map<Character, ArgumentMarshaler> marshalers;
-    private final Set<Character> foundArgs;
     private ListIterator<String> currentArgument;
 
-    public Args(String schema, String[] args) throws ArgsException {
+    public Args(String schema, String[] args) {
         this.marshalers = new HashMap<Character, ArgumentMarshaler>();
-        this.foundArgs = new HashSet<Character>();
+
+        validateParameter(schema, args);
 
         parseSchema(schema);
-        parseArgumentStrings(Arrays.asList(args));
+        parseArguments(Arrays.asList(args));
     }
 
-    private void parseSchema(String schema) throws ArgsException {
+    private void validateParameter(String schema, String[] args) {
+        if (!(schema != null && schema.length() > 0 && args != null && args.length > 0)) {
+            throw new RuntimeException(String.format("Invalid parameters!"));
+        }
+    }
+
+    private void parseSchema(String schema) {
         for (String element : schema.split(",")) {
             if (element.length() > 0) {
                 parseSchemaElement(element.trim());
@@ -34,72 +34,56 @@ public class Args {
         }
     }
 
-    private void parseSchemaElement(String element) throws ArgsException {
+    private void parseSchemaElement(String element) {
         char elementId = element.charAt(0);
-        String elementTail = element.substring(1);
+        String elementToken = element.substring(1);
 
         validateSchemaElementId(elementId);
 
-        if (elementTail.equals("*")) {
+        if (StringArgumentMarshaler.TOKEN.equals(elementToken)) {
             this.marshalers.put(elementId, new StringArgumentMarshaler());
-        } else if (elementTail.equals("#")) {
+        } else if (IntegerArgumentMarshaler.TOKEN.equals(elementToken)) {
             this.marshalers.put(elementId, new IntegerArgumentMarshaler());
         } else {
-            throw new ArgsException(INVALID_ARGUMENT_FORMAT, elementId, elementTail);
+            throw new RuntimeException(String.format("Argument: %c has invalid format: %s!", elementId, elementToken));
         }
     }
 
-    private void validateSchemaElementId(char elementId) throws ArgsException {
+    private void validateSchemaElementId(char elementId) {
         if (!Character.isLetter(elementId)) {
-            throw new ArgsException(INVALID_ARGUMENT_NAME, elementId, null);
+            throw new RuntimeException(String.format("Argument: %c has invalid argument name!", elementId));
         }
     }
 
-    private void parseArgumentStrings(List<String> argsList) throws ArgsException {
-        if (argsList != null && argsList.size() > 0) {
-            this.currentArgument = argsList.listIterator();
+    private void parseArguments(List<String> args) {
+        this.currentArgument = args.listIterator();
+
+        while (this.currentArgument.hasNext()) {
             String argString = this.currentArgument.next();
 
-            if (argString.startsWith("-")) {
-                parseArgumentCharacters(argString.substring(1));
+            if (argString.startsWith("-") && argString.length() == 2) {
+                parseArgumentCharacter(argString.charAt(1));
             } else {
-                throw new ArgsException(INVALID_ARGUMENT_FORMAT, '-', "");
+                throw new RuntimeException("Invalid argument format!");
             }
         }
     }
 
-    private void parseArgumentCharacters(String argChars) throws ArgsException {
-        for (int i = 0; i < argChars.length(); i++) {
-            parseArgumentCharacter(argChars.charAt(i));
-        }
-    }
-
-    private void parseArgumentCharacter(char argChar) throws ArgsException {
+    private void parseArgumentCharacter(char argChar) {
         ArgumentMarshaler marshaler = this.marshalers.get(argChar);
 
         if (marshaler != null) {
-            this.foundArgs.add(argChar);
-
-            try {
-                marshaler.set(this.currentArgument);
-            } catch (ArgsException e) {
-                e.setErrorArgumentId(argChar);
-                throw e;
-            }
+            marshaler.set(this.currentArgument.next());
         } else {
-            throw new ArgsException(UNEXPECTED_ARGUMENT, argChar, null);
+            throw new RuntimeException(String.format("Unexpected argument: %c found!", argChar));
         }
     }
 
-    public boolean has(char arg) {
-        return this.foundArgs.contains(arg);
+    public String getString(char argChar) {
+        return StringArgumentMarshaler.getValue(this.marshalers.get(argChar));
     }
 
-    public String getString(char arg) {
-        return StringArgumentMarshaler.getValue(this.marshalers.get(arg));
-    }
-
-    public int getInt(char arg) {
-        return IntegerArgumentMarshaler.getValue(this.marshalers.get(arg));
+    public int getInt(char argChar) {
+        return IntegerArgumentMarshaler.getValue(this.marshalers.get(argChar));
     }
 }

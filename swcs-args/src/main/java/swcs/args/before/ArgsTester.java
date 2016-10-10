@@ -1,19 +1,13 @@
 package swcs.args.before;
 
-import java.text.ParseException;
-
 public class ArgsTester {
 
     public static void main(String[] args) {
-        try {
-            Args arg = new Args("p#,d*", args);
+        Args arg = new Args("p#,h*", args);
 
-            int port = arg.getInt('p');
-            String directory = arg.getString('d');
+        int port = arg.getInt('p');
+        String host = arg.getString('h');
 
-            System.out.println(String.format("port [%d] directory [%s]", port, directory));
-        } catch (ParseException e) {
-            System.out.printf("Argument error: %s%n", e.getMessage());
-        }
+        System.out.println(String.format("port [%d] host [%s]", port, host));
     }
 }

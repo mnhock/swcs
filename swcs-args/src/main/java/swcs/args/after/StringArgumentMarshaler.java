@@ -1,25 +1,19 @@
 package swcs.args.after;
 
-import static swcs.args.after.ArgsException.ErrorCode.MISSING_STRING;
-
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-
 public class StringArgumentMarshaler implements ArgumentMarshaler {
-    private String stringValue = "";
+
+    public static final String TOKEN = "*";
+
+    private String value = "";
 
     @Override
-    public void set(Iterator<String> currentArgument) throws ArgsException {
-        try {
-            this.stringValue = currentArgument.next();
-        } catch (NoSuchElementException e) {
-            throw new ArgsException(MISSING_STRING);
-        }
+    public void set(String argument) {
+        this.value = argument;
     }
 
     public static String getValue(ArgumentMarshaler am) {
         if ((am != null) && (am instanceof StringArgumentMarshaler)) {
-            return ((StringArgumentMarshaler) am).stringValue;
+            return ((StringArgumentMarshaler) am).value;
         } else {
             return "";
         }
