@@ -8,8 +8,7 @@ public class IntegerArgumentMarshaler implements ArgumentMarshaler {
 
     @Override
     public void set(String argument) {
-        this.value = Integer.valueOf(argument);
-
+        this.value = Integer.valueOf(argument).intValue();
     }
 
     public static int getValue(ArgumentMarshaler am) {
