@@ -13,6 +13,7 @@
 
 	<modules>
 		<module>swcs-args</module>
+		<module>swcs-junit</module>
 		<module>swcs-gof</module>
 	</modules>
 
