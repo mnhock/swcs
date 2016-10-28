@@ -54,7 +54,7 @@ public class FootballTeamTest {
     public void teamsWithLessMatchesWonShouldBeLesser() {
         FootballTeam teamA = new FootballTeam(2);
         FootballTeam teamB = new FootballTeam(3);
-        assertTrue(teamB.compareTo(teamA) > 0);
+        assertTrue(teamA.compareTo(teamB) < 0);
     }
 
     @Test
