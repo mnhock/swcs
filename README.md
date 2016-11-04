@@ -4,5 +4,5 @@
 
 ## Installation
 
-1. `https://github.com/mnhock/swcs.git`
+1. `clone https://github.com/mnhock/swcs.git`
 2. Import as Maven project
