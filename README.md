@@ -1,4 +1,4 @@
-## HS Ansbach - SWCS
+## SWCS
 
 - Softwarecraftmanship and Clean Code
 
