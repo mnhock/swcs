@@ -5,19 +5,19 @@ import java.util.HashSet;
 
 public class RaceResultsService {
 
-    private Collection<Client> clients = new HashSet<Client>();
+    private final Collection<Client> clients = new HashSet<Client>();
 
     public void addSubscriber(Client client) {
-        clients.add(client);
+        this.clients.add(client);
     }
 
     public void send(Message message) {
-        for (Client client : clients) {
+        for (Client client : this.clients) {
             client.receive(message);
         }
     }
 
     public void removeSubscriber(Client client) {
-        clients.remove(client);
+        this.clients.remove(client);
     }
 }
