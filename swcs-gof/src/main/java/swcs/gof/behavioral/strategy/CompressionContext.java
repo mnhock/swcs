@@ -1,7 +1,7 @@
 package swcs.gof.behavioral.strategy;
 
 import java.io.File;
-import java.util.ArrayList;
+import java.util.List;
 
 public class CompressionContext {
     private CompressionStrategy strategy;
@@ -12,7 +12,7 @@ public class CompressionContext {
     }
 
     // use the strategy
-    public void createArchive(ArrayList<File> files) {
+    public void createArchive(List<File> files) {
         this.strategy.compressFiles(files);
     }
 }
