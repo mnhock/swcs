@@ -2,13 +2,13 @@ package swcs.gof.creational.builder;
 
 public class Meal {
 
-    private String typ;
+    private String type;
 
-    public String getTyp() {
-        return this.typ;
+    public String getType() {
+        return this.type;
     }
 
-    public void setType(String typ) {
-        this.typ = typ;
+    public void setType(String type) {
+        this.type = type;
     }
 }
