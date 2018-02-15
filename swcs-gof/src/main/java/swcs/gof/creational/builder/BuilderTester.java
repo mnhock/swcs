@@ -5,7 +5,7 @@ public class BuilderTester {
     public static void main(String[] args) {
         MealDirector director = new MealDirector();
         MealBuilder builder;
-        boolean isKid = true;
+        boolean isKid = false;
 
         if (isKid) {
             builder = new KidsMealBuilder();
@@ -14,6 +14,6 @@ public class BuilderTester {
         }
 
         Meal meal = director.createMeal(builder);
-        System.out.println(meal.getTyp());
+        System.out.println(meal.getType());
     }
 }
