@@ -8,15 +8,15 @@ public class FahrenheitCelciusConverterTest {
 
     @Test
     public void shouldConvertCelciusToFahrenheit() {
-        assertEquals(FahrenheitCelciusConverter.toFahrenheit(0), 32);
-        assertEquals(FahrenheitCelciusConverter.toFahrenheit(37), 98);
-        assertEquals(FahrenheitCelciusConverter.toFahrenheit(100), 212);
+        assertEquals(32, FahrenheitCelciusConverter.toFahrenheit(0));
+        assertEquals(98, FahrenheitCelciusConverter.toFahrenheit(37));
+        assertEquals(212, FahrenheitCelciusConverter.toFahrenheit(100));
     }
 
     @Test
     public void shouldConvertFahrenheitToCelcius() {
-        assertEquals(FahrenheitCelciusConverter.toCelcius(32), 0);
-        assertEquals(FahrenheitCelciusConverter.toCelcius(100), 37);
-        assertEquals(FahrenheitCelciusConverter.toCelcius(212), 100);
+        assertEquals(0, FahrenheitCelciusConverter.toCelcius(32));
+        assertEquals(37, FahrenheitCelciusConverter.toCelcius(100));
+        assertEquals(100, FahrenheitCelciusConverter.toCelcius(212));
     }
 }
