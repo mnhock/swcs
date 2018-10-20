@@ -22,7 +22,7 @@ public class Args {
 
     private void validateParameter(String schema, String[] args) {
         if (!(schema != null && schema.length() > 0 && args != null && args.length > 0)) {
-            throw new RuntimeException(String.format("Invalid parameters!"));
+            throw new RuntimeException("Invalid parameters!");
         }
     }
 

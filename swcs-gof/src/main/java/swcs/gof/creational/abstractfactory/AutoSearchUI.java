@@ -21,7 +21,7 @@ public class AutoSearchUI extends JFrame {
 
     private static final long serialVersionUID = 1L;
 
-    public static final String newline = "\n";
+    public static final String NEWLINE = "\n";
     public static final String SEARCH = "Search";
     public static final String EXIT = "Exit";
     public static final String CAR = "Car";
