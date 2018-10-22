@@ -7,7 +7,7 @@ public class SortListAdapter implements Sorter {
 
     @Override
     public int[] sort(int[] numbers) {
-        List<Integer> numberList = new ArrayList<Integer>();
+        List<Integer> numberList = new ArrayList<>();
 
         // convert the array to a List
 

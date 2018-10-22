@@ -34,11 +34,11 @@ public class AutoSearchUI extends JFrame {
     public AutoSearchUI() {
         super("Abstract Factory - Example");
 
-        this.cmbVehicleCategory = new JComboBox<String>();
+        this.cmbVehicleCategory = new JComboBox<>();
         this.cmbVehicleCategory.addItem(VehicleFactory.LUXURY_VEHICLE);
         this.cmbVehicleCategory.addItem(VehicleFactory.NON_LUXURY_VEHICLE);
 
-        this.cmbVehicleType = new JComboBox<String>();
+        this.cmbVehicleType = new JComboBox<>();
         this.cmbVehicleType.addItem(AutoSearchUI.CAR);
         this.cmbVehicleType.addItem(AutoSearchUI.SUV);
 

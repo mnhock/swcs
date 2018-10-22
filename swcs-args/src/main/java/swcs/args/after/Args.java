@@ -12,7 +12,7 @@ public class Args {
     private ListIterator<String> currentArgument;
 
     public Args(String schema, String[] args) {
-        this.marshalers = new HashMap<Character, ArgumentMarshaler>();
+        this.marshalers = new HashMap<>();
 
         validateParameter(schema, args);
 

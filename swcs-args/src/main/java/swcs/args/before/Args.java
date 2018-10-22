@@ -4,11 +4,11 @@ import java.util.HashMap;
 
 public class Args {
 
-    private String schema;
-    private String[] args;
+    private final String schema;
+    private final String[] args;
 
-    private HashMap<Character, String> stringArgsHashMap = new HashMap<Character, String>();
-    private HashMap<Character, Integer> intArgsHashMap = new HashMap<Character, Integer>();
+    private final HashMap<Character, String> stringArgsHashMap = new HashMap<>();
+    private final HashMap<Character, Integer> intArgsHashMap = new HashMap<>();
     private int argument;
 
     public Args(String schema, String[] args) {

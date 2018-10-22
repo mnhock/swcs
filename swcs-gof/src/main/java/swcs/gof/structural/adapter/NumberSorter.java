@@ -11,6 +11,6 @@ public class NumberSorter {
 
     public List<Integer> sort(List<Integer> numbers) {
         // sort and return
-        return new ArrayList<Integer>();
+        return new ArrayList<>();
     }
 }

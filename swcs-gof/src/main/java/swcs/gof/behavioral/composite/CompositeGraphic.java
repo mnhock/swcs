@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CompositeGraphic implements Graphic {
 
-    private final List<Graphic> children = new ArrayList<Graphic>();
+    private final List<Graphic> children = new ArrayList<>();
 
     @Override
     public void paint() {
