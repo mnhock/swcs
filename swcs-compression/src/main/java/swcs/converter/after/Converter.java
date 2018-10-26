@@ -16,14 +16,14 @@ public class Converter { //Facade
     public File convert(String targetFormat) {
         Objects.requireNonNull(targetFormat);
 
-        System.out.println("CompressionFacade: convert started.");
+        System.out.println("Compression: convert started.");
 
         isSourceFormatSupported();
 
         Compression compression = CompressionFactory.newInstance(targetFormat);
         File converted = compression.compress(this.source);
 
-        System.out.println("CompressionFacade: convert completed.");
+        System.out.println("Compression: convert completed.");
 
         return converted;
     }
