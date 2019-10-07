@@ -1,66 +1,59 @@
 package swcs.junit.football;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
-import org.junit.experimental.theories.DataPoints;
-import org.junit.experimental.theories.FromDataPoints;
-import org.junit.experimental.theories.Theories;
-import org.junit.experimental.theories.Theory;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
-@RunWith(Theories.class)
-public class FootballTeamTest {
+class FootballTeamTest {
 
     private static final int ANY_NUMBER = 123;
 
-    @DataPoints("nbOfGamesWon")
-    public static int[] nbOfGamesWon() {
-        return new int[] {0, 1, 2};
-    }
-
-    @DataPoints("illegalNbOfGamesWon")
-    public static int[] illegalNbOfGamesWon() {
-        return new int[] {-10, -1};
-    }
-
-    @Theory
-    public void constructorShouldSetGamesWon(@FromDataPoints("nbOfGamesWon") int nbOfGamesWon) {
+    @ParameterizedTest
+    @ValueSource(ints = {0, 1, 2})
+    void constructorShouldSetGamesWon(int nbOfGamesWon) {
         FootballTeam team = new FootballTeam(nbOfGamesWon);
+
         assertEquals(nbOfGamesWon, team.getGamesWon());
     }
 
-    @Theory
-    @Test(expected = IllegalArgumentException.class)
-    public void constructorShouldThrowExceptionForIllegalGamesNb(@FromDataPoints("illegalNbOfGamesWon") int illegalNbOfGamesWon) {
-        new FootballTeam(illegalNbOfGamesWon);
+    @ParameterizedTest
+    @ValueSource(ints = {-10, -1})
+    void constructorShouldThrowExceptionForIllegalGamesNb(int illegalNbOfGamesWon) {
+        assertThrows(IllegalArgumentException.class, () -> new FootballTeam(illegalNbOfGamesWon));
     }
 
     @Test
-    public void shouldBePossibleToCompareTeams() {
+    void shouldBePossibleToCompareTeams() {
         FootballTeam team = new FootballTeam(ANY_NUMBER);
-        assertTrue("Should be possible to compare teams", team instanceof Comparable);
+
+        assertTrue(team instanceof Comparable, "Should be possible to compare teams");
     }
 
     @Test
-    public void teamWithMoreMatchesWonShouldBeGreater() {
+    void teamWithMoreMatchesWonShouldBeGreater() {
         FootballTeam teamA = new FootballTeam(2);
         FootballTeam teamB = new FootballTeam(3);
+
         assertTrue(teamB.compareTo(teamA) > 0);
     }
 
     @Test
-    public void teamsWithLessMatchesWonShouldBeLesser() {
+    void teamsWithLessMatchesWonShouldBeLesser() {
         FootballTeam teamA = new FootballTeam(2);
         FootballTeam teamB = new FootballTeam(3);
+
         assertTrue(teamA.compareTo(teamB) < 0);
     }
 
     @Test
-    public void teamsWithSameNumberOfMatchesWonShouldBeEqual() {
+    void teamsWithSameNumberOfMatchesWonShouldBeEqual() {
         FootballTeam teamA = new FootballTeam(2);
         FootballTeam teamB = new FootballTeam(2);
+
         assertTrue(teamA.compareTo(teamB) == 0);
     }
 }

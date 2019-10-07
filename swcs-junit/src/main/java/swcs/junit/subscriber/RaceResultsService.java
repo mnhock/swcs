@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class RaceResultsService {
 
-    private final Collection<Client> clients = new HashSet<Client>();
+    private final Collection<Client> clients = new HashSet<>();
 
     public void addSubscriber(Client client) {
         this.clients.add(client);

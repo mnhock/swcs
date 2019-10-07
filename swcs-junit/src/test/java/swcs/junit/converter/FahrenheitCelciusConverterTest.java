@@ -1,20 +1,20 @@
 package swcs.junit.converter;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class FahrenheitCelciusConverterTest {
+class FahrenheitCelciusConverterTest {
 
     @Test
-    public void shouldConvertCelciusToFahrenheit() {
+    void shouldConvertCelciusToFahrenheit() {
         assertEquals(32, FahrenheitCelciusConverter.toFahrenheit(0));
         assertEquals(98, FahrenheitCelciusConverter.toFahrenheit(37));
         assertEquals(212, FahrenheitCelciusConverter.toFahrenheit(100));
     }
 
     @Test
-    public void shouldConvertFahrenheitToCelcius() {
+    void shouldConvertFahrenheitToCelcius() {
         assertEquals(0, FahrenheitCelciusConverter.toCelcius(32));
         assertEquals(37, FahrenheitCelciusConverter.toCelcius(100));
         assertEquals(100, FahrenheitCelciusConverter.toCelcius(212));

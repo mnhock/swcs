@@ -1,6 +1,7 @@
 package swcs.junit.football;
 
 public class FootballTeam implements Comparable<FootballTeam> {
+
     private final int gamesWon;
 
     public FootballTeam(int gamesWon) {

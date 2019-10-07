@@ -5,7 +5,7 @@ final class CompressionFactory {
     private CompressionFactory() {
     }
 
-    static final Compression newInstance(String targetFormat) {
+    static Compression newInstance(String targetFormat) {
         Compression compression = null;
 
         if ("png".equals(targetFormat)) {
