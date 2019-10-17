@@ -14,6 +14,7 @@
 
 	<modules>
 		<module>swcs-args</module>
+		<module>swcs-rental</module>
 		<module>swcs-compression</module>
 		<module>swcs-junit</module>
 		<module>swcs-dp</module>
