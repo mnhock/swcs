@@ -56,7 +56,7 @@ class RaceResultsServiceTest {
     }
 
     @Test
-    void shouldSendOnlyOneMassageToMultiSubscriber() {
+    void shouldSendOnlyOneMessageToMultiSubscriber() {
         this.raceResults.addSubscriber(this.clientA);
         this.raceResults.addSubscriber(this.clientA);
         this.raceResults.send(this.message);
