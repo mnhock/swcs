@@ -13,14 +13,14 @@ public class Converter { //Facade
         this.source = source;
     }
 
-    public File convert(String targetFormat) {
-        Objects.requireNonNull(targetFormat);
+    public File convert(CompressionType type) {
+        Objects.requireNonNull(type);
 
         System.out.println("Compression: convert started.");
 
         isSourceFormatSupported();
 
-        Compression compression = CompressionFactory.newInstance(targetFormat);
+        Compression compression = CompressionFactory.newInstance(type);
         File converted = compression.compress(this.source);
 
         System.out.println("Compression: convert completed.");
