@@ -9,7 +9,7 @@ final class Customer implements Iterable<Rental> {
     private final String name;
     private final List<Rental> rentals;
 
-    public Customer(String name) {
+    Customer(String name) {
         this.name = name;
         this.rentals = new ArrayList<>();
     }
@@ -32,7 +32,7 @@ final class Customer implements Iterable<Rental> {
     public void overview() {
         System.out.format("Rental Record for %s%n", getName());
 
-        this.rentals.forEach(r -> System.out.format("\t%s\t%d%n", r.getMovie().getTitle(), r.getDaysRented()));
+        this.rentals.forEach(r -> System.out.format("\t%s\t%d%n", r.getMovie().getTitle(), r.getDays()));
 
         System.out.format("Amount owed is %.2f%n", totalAmout());
     }

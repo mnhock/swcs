@@ -1,10 +1,10 @@
 package swcs.rental.after;
 
-class RegularMove extends AbstractMovie implements Movie {
+class RegularMovie extends AbstractMovie implements Movie {
 
-    private static final double CHARGE = 3.5;
+    private static final double CHARGE = 2;
 
-    RegularMove(String title) {
+    RegularMovie(String title) {
         super(title);
     }
 
