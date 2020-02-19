@@ -1,6 +1,6 @@
 package swcs.rental.after;
 
-class NewReleaseMovie extends AbstractMovie implements Movie {
+class NewReleaseMovie extends AbstractMovie {
 
     private static final double CHARGE = 3;
 
