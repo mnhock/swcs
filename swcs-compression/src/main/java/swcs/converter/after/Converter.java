@@ -3,7 +3,7 @@ package swcs.converter.after;
 import java.io.File;
 import java.util.Objects;
 
-public class Converter { //Facade
+public class Converter {
 
     private final File source;
 
