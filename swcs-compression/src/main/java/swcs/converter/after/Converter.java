@@ -8,9 +8,7 @@ public class Converter {
     private final File source;
 
     public Converter(File source) {
-        Objects.requireNonNull(source);
-
-        this.source = source;
+        this.source = Objects.requireNonNull(source);
     }
 
     public File convert(CompressionType type) {
