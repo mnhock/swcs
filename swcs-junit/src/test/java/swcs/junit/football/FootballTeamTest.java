@@ -54,6 +54,6 @@ class FootballTeamTest {
         FootballTeam teamA = new FootballTeam(2);
         FootballTeam teamB = new FootballTeam(2);
 
-        assertTrue(teamA.compareTo(teamB) == 0);
+        assertEquals(0, teamA.compareTo(teamB));
     }
 }
