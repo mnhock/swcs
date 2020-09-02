@@ -22,7 +22,7 @@
 	</modules>
 
 	<properties>
-		<java.version>13</java.version>
+		<java.version>14</java.version>
 		<maven.compiler.release>${java.version}</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.build.timestamp.format>dd.MM.yyyy HH:mm</maven.build.timestamp.format>
