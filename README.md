@@ -8,10 +8,10 @@ Deepening of knowledge and practical skills in the field of software quality. Ge
 ## Course Goals
 Students acquire in-depth knowledge and skills for the analysis, assessment and improvement of software quality. You will be able to apply principles, patterns, techniques and tools needed to write clean code.
 
-## Key Qualifications:
+## Key Qualifications
 Ability to think complex, ability to work independently, analysis and solution of problems.
 
-## Course Contents:
+## Course Contents
 Software testing is not limited to a specific phase of the project. Already during the coding phase or the system build process critical and difficult to find software defects in the source code can be detected. The necessary procedures and tools are presented in the lecture.    
 
 Among other things, the following topics will be covered:
