@@ -31,3 +31,8 @@ Among other things, the following topics will be covered:
 ## Installation
 1. `clone https://github.com/mnhock/swcs.git`
 2. Import as Maven project
+
+## Book
+
+https://leanpub.com/clean-code-fundamentals
+
