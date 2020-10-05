@@ -1,6 +1,6 @@
 ## SWCS
 
-Code for the course Softwarecraftmanship and Clean Code
+Code for the course Softwarecraftmanship and Clean Code.
 
 ## Study Programme Goals
 Deepening of knowledge and practical skills in the field of software quality. Getting knowledge in tools and procedures from practice.
