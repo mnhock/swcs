@@ -1,6 +1,6 @@
 ## SWCS
 
-Code for the course Softwarecraftmanship and Clean Code
+Code for the course Softwarecraftmanship and Clean Code.
 
 ## Study Programme Goals
 Deepening of knowledge and practical skills in the field of software quality. Getting knowledge in tools and procedures from practice.
@@ -31,3 +31,8 @@ Among other things, the following topics will be covered:
 ## Installation
 1. `clone https://github.com/mnhock/swcs.git`
 2. Import as Maven project
+
+## Book
+
+https://leanpub.com/clean-code-fundamentals
+
