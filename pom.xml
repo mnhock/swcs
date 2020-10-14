@@ -19,6 +19,7 @@
 		<module>swcs-junit</module>
 		<module>swcs-dp</module>
 		<module>swcs-gof</module>
+		<module>swcs-playground</module>
 	</modules>
 
 	<properties>
