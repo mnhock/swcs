@@ -20,6 +20,7 @@
 		<module>swcs-dp</module>
 		<module>swcs-gof</module>
 		<module>swcs-playground</module>
+		<module>swcs-clean</module>
 	</modules>
 
 	<properties>
@@ -28,7 +29,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.build.timestamp.format>dd.MM.yyyy HH:mm</maven.build.timestamp.format>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		
+
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 		<junit-jupiter.version>5.7.0</junit-jupiter.version>
 		<mockito.version>3.5.13</mockito.version>
