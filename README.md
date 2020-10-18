@@ -32,7 +32,7 @@ Among other things, the following topics will be covered:
 1. `clone https://github.com/mnhock/swcs.git`
 2. Import as Maven project
 
-## Excercises
+## Exercises
 
 https://github.com/mnhock/swcs/blob/master/EXERCISES.md
 
