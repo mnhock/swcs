@@ -16,6 +16,7 @@
 		<module>swcs-rental</module>
 		<module>swcs-compression</module>
 		<module>swcs-junit</module>
+		<module>swcs-mockito</module>
 		<module>swcs-dp</module>
 		<module>swcs-gof</module>
 		<module>swcs-playground</module>

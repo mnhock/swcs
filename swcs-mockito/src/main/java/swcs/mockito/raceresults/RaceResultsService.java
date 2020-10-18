@@ -1,4 +1,4 @@
-package swcs.junit.subscriber;
+package swcs.mockito.raceresults;
 
 import java.util.Collection;
 import java.util.HashSet;

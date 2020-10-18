@@ -1,4 +1,4 @@
-package swcs.junit.subscriber;
+package swcs.mockito.raceresults;
 
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
