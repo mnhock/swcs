@@ -34,9 +34,10 @@ Among other things, the following topics will be covered:
 
 ## Exercises
 
-https://github.com/mnhock/swcs/blob/master/EXERCISES.md
+Exercises can be found [here][1].
 
 ## Book
 
 https://leanpub.com/clean-code-fundamentals
 
+[1]: EXERCISES.md
