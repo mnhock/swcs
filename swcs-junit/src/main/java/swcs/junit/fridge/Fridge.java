@@ -12,15 +12,15 @@ public class Fridge {
     }
 
     public boolean put(String item) {
-        return foods.add(item);
+        return this.foods.add(item);
     }
 
     public boolean contains(String item) {
-        return foods.contains(item);
+        return this.foods.contains(item);
     }
 
     public void take(String item) throws NoSuchItemException {
-        boolean result = foods.remove(item);
+        boolean result = this.foods.remove(item);
 
         if (!result) {
             throw new NoSuchItemException();

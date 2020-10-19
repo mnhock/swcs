@@ -15,73 +15,73 @@ class FridgeTest {
 
     @Test
     void shouldContainAddedProduct() {
-        fridge.put(BEER);
+        this.fridge.put(BEER);
 
-        assertTrue(fridge.contains(BEER));
+        assertTrue(this.fridge.contains(BEER));
     }
 
     @Test
     void shouldNotAllowToStoreMoreThanOneIdenticalProductAtTheSameTime() {
-        fridge.put(BEER);
+        this.fridge.put(BEER);
 
-        assertFalse(fridge.put(BEER));
+        assertFalse(this.fridge.put(BEER));
     }
 
     @Test
     void shouldStoreProductAfterTryingToAddTheSameOne() {
-        fridge.put(BEER);
-        fridge.put(BEER);
+        this.fridge.put(BEER);
+        this.fridge.put(BEER);
 
-        assertTrue(fridge.contains(BEER));
+        assertTrue(this.fridge.contains(BEER));
     }
 
     @Test
     void shouldAllowToStoreMultipleProductsAtTheSameTime() {
-        fridge.put(BEER);
-        fridge.put(RED_BULL);
+        this.fridge.put(BEER);
+        this.fridge.put(RED_BULL);
 
-        assertTrue(fridge.contains(BEER));
-        assertTrue(fridge.contains(RED_BULL));
+        assertTrue(this.fridge.contains(BEER));
+        assertTrue(this.fridge.contains(RED_BULL));
     }
 
     @Test
     void shouldAllowToPutTheSameProductMultipleTimesWhenItsNotThere() throws NoSuchItemException {
-        fridge.put(BEER);
-        fridge.take(BEER);
-        fridge.put(BEER);
+        this.fridge.put(BEER);
+        this.fridge.take(BEER);
+        this.fridge.put(BEER);
 
-        assertTrue(fridge.contains(BEER));
+        assertTrue(this.fridge.contains(BEER));
     }
 
     @Test
     void shouldNotContainNotAddedProduct() {
-        fridge.put(BEER);
+        this.fridge.put(BEER);
 
-        assertFalse(fridge.contains(RED_BULL));
+        assertFalse(this.fridge.contains(RED_BULL));
     }
 
     @Test
     void shouldThrowNSIEWhenTakingProductWhichWasNeverAdded() throws NoSuchItemException {
-        assertThrows(NoSuchItemException.class, () -> fridge.take(BEER));
+        assertThrows(NoSuchItemException.class, () -> this.fridge.take(BEER));
     }
 
     @Test
     void shouldThrowNSIEWhenTakingProductWhichWasAlreadyTaken() throws NoSuchItemException {
-        fridge.put(BEER);
-        fridge.take(BEER);
+        this.fridge.put(BEER);
+        this.fridge.take(BEER);
 
-        assertThrows(NoSuchItemException.class, () -> fridge.take(BEER));
+        assertThrows(NoSuchItemException.class, () -> this.fridge.take(BEER));
     }
 
     @Test
     void shouldContainNoProductsWhenAllProductsWereTaken() throws NoSuchItemException {
-        fridge.put(BEER);
-        fridge.put(RED_BULL);
-        fridge.take(BEER);
-        fridge.take(RED_BULL);
+        this.fridge.put(BEER);
+        this.fridge.put(RED_BULL);
+        this.fridge.take(BEER);
+        this.fridge.take(RED_BULL);
 
-        assertFalse(fridge.contains(BEER));
-        assertFalse(fridge.contains(RED_BULL));
+        assertFalse(this.fridge.contains(BEER));
+        assertFalse(this.fridge.contains(RED_BULL));
     }
 
 }

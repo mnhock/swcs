@@ -2,7 +2,7 @@ package swcs.gof.structural.decorator;
 
 public class DecoratedWindow implements Window {
 
-    private Window window = null;
+    private Window window;
 
     public DecoratedWindow(Window window) {
         this.window = window;
