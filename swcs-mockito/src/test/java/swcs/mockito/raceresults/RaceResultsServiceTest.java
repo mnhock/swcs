@@ -36,12 +36,9 @@ class RaceResultsServiceTest {
 
     @Test
     void subscribedClientShouldReceiveMessage() {
-        this.raceResults.send(this.message);
-        verify(this.clientA, never()).receive(this.message);
-        verify(this.clientB, never()).receive(this.message);
-
         this.raceResults.addSubscriber(this.clientA);
         this.raceResults.send(this.message);
+
         verify(this.clientA).receive(this.message);
     }
 
