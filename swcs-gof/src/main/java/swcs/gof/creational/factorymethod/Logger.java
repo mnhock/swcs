@@ -2,7 +2,7 @@ package swcs.gof.creational.factorymethod;
 
 public interface Logger {
 
-    void setPrefix(String prefix);
+    String getName();
 
     void log(String message);
 }
