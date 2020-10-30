@@ -18,7 +18,7 @@ public class Converter {
 
         isSourceFormatSupported();
 
-        Compression compression = CompressionFactory.newInstance(type);
+        Compression compression = CompressionFactory.from(type);
         File converted = compression.compress(this.source);
 
         System.out.println("Compression: convert completed.");

@@ -16,7 +16,7 @@ final class CompressionFactory {
     private CompressionFactory() {
     }
 
-    static Compression newInstance(CompressionType type) {
+    static Compression from(CompressionType type) {
         Compression compression = CONVERTERS.get(type);
 
         if (compression == null) {
