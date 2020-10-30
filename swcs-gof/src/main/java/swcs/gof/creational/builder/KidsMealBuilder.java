@@ -4,22 +4,17 @@ public class KidsMealBuilder extends MealBuilder {
 
     @Override
     public void buildDrink() {
-        // add drinks to the meal
+        getMeal().setDrink("Kids drink");
     }
 
     @Override
     public void buildMain() {
-        // add main part of the meal
+        getMeal().setMain("Kids main");
     }
 
     @Override
     public void buildDessert() {
-        // add dessert part to the meal
+        getMeal().setDessert("Kids dessert");
     }
 
-    @Override
-    public Meal getMeal() {
-        this.meal.setType("Kids");
-        return this.meal;
-    }
 }

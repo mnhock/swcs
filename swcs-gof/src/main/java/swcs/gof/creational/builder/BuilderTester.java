@@ -14,6 +14,6 @@ public class BuilderTester {
         }
 
         Meal meal = director.createMeal(builder);
-        System.out.println(meal.getType());
+        System.out.println(meal.getMain());
     }
 }

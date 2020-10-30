@@ -4,22 +4,17 @@ public class AdultMealBuilder extends MealBuilder {
 
     @Override
     public void buildDrink() {
-        // add drinks to the meal
+        getMeal().setDrink("Adult drink");
     }
 
     @Override
     public void buildMain() {
-        // add main part of the meal
+        getMeal().setMain("Adult main");
     }
 
     @Override
     public void buildDessert() {
-        // add dessert part to the meal
+        getMeal().setDessert("Adult dessert");
     }
 
-    @Override
-    public Meal getMeal() {
-        this.meal.setType("Adult");
-        return this.meal;
-    }
 }
