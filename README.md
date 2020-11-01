@@ -23,7 +23,7 @@ Among other things, the following topics will be covered:
 - Static software testing, especially review techniques and static program analysis 
 - Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, Dependency-Track and ArchUnit
 - Software tests with JUnit and Mockito
-- Checking the test coverage (code coverage) 
+- Checking the test code coverage
 - CI/CD
 - Design Principles
 - Design Patterns (GoF)
