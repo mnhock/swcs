@@ -1,4 +1,4 @@
-package swcs.dp.ocp.loadvalidator.after;
+package swcs.dp.ocp.loanvalidator.after;
 
 public class LoanRequestHandler {
     private final int balance;
