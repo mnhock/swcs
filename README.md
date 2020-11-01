@@ -21,7 +21,7 @@ Among other things, the following topics will be covered:
 - Overview of Principles, Best Practices and Code Smells 
 - Compliance and verification of Java code conventions
 - Static software testing, especially review techniques and static program analysis 
-- Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle and ArchUnit
+- Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, Dependency-Track and ArchUnit
 - Software tests with JUnit and Mockito
 - Checking the test coverage (code coverage) 
 - CI/CD
