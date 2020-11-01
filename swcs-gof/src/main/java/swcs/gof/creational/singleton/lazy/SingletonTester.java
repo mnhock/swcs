@@ -1,4 +1,4 @@
-package swcs.gof.creational.singleton;
+package swcs.gof.creational.singleton.lazy;
 
 public class SingletonTester {
 

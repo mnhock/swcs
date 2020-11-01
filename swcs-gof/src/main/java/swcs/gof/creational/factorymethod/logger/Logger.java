@@ -1,4 +1,4 @@
-package swcs.gof.creational.factorymethod;
+package swcs.gof.creational.factorymethod.logger;
 
 public interface Logger {
 

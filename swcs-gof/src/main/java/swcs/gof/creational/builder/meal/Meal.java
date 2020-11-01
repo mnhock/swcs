@@ -1,4 +1,4 @@
-package swcs.gof.creational.builder;
+package swcs.gof.creational.builder.meal;
 
 public class Meal {
 

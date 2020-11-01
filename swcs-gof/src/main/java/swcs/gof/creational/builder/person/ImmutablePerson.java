@@ -1,4 +1,4 @@
-package swcs.gof.creational.builder2;
+package swcs.gof.creational.builder.person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,8 +60,13 @@ public class ImmutablePerson {
             return this;
         }
 
-        public Builder withFavoriteDishes(List<String> dishes) {
-            this.favoriteDishes = dishes != null ? new ArrayList<>(dishes) : null;
+        public Builder addFavoriteDish(String dish) {
+            this.favoriteDishes.add(dish);
+            return this;
+        }
+
+        public Builder removeFavoriteDish(String dish) {
+            this.favoriteDishes.remove(dish);
             return this;
         }
 
