@@ -8,7 +8,7 @@ public class AuthenticationManager {
         this.authenticationProvider = authenticationProvider;
     }
 
-    public void login(User user) {
-        this.authenticationProvider.authenticate(user);
+    public void login(Authentication authentication) {
+        this.authenticationProvider.authenticate(authentication);
     }
 }

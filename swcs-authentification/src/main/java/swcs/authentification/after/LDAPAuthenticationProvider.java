@@ -3,7 +3,7 @@ package swcs.authentification.after;
 public class LDAPAuthenticationProvider implements AuthenticationProvider {
 
     @Override
-    public boolean authenticate(User user) {
+    public boolean authenticate(Authentication authentication) {
         // logic
         return true;
     }
