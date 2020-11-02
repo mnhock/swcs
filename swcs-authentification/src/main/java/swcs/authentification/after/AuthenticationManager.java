@@ -2,13 +2,13 @@ package swcs.authentification.after;
 
 public class AuthenticationManager {
 
-    private final AuthenticationProvider authenticationProvider;
+    private final AuthenticationProvider provider;
 
-    public AuthenticationManager(AuthenticationProvider authenticationProvider) {
-        this.authenticationProvider = authenticationProvider;
+    public AuthenticationManager(AuthenticationProvider provider) {
+        this.provider = provider;
     }
 
     public void login(Authentication authentication) {
-        this.authenticationProvider.authenticate(authentication);
+        this.provider.authenticate(authentication);
     }
 }

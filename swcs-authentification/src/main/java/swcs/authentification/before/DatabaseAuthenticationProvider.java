@@ -1,6 +1,6 @@
 package swcs.authentification.before;
 
-public class SimpleAuthenticationProvider {
+public class DatabaseAuthenticationProvider {
 
     public boolean authenticate(User user) {
         // logic

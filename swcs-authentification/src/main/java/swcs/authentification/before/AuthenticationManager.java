@@ -2,9 +2,9 @@ package swcs.authentification.before;
 
 public class AuthenticationManager {
 
-    private final SimpleAuthenticationProvider simpleAuthenticator = new SimpleAuthenticationProvider();
+    private final DatabaseAuthenticationProvider provider = new DatabaseAuthenticationProvider();
 
     public void login(User user) {
-        this.simpleAuthenticator.authenticate(user);
+        this.provider.authenticate(user);
     }
 }
