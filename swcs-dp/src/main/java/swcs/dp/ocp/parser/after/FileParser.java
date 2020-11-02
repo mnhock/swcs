@@ -1,12 +1,9 @@
 package swcs.dp.ocp.parser.after;
 
-abstract class FileParser {
+public interface FileParser {
 
-    private final String filePath;
+    String parse(String file);
 
-    public FileParser(String filePath) {
-        this.filePath = filePath;
-    }
+    boolean supports(String extension);
 
-    public abstract String parse();
 }

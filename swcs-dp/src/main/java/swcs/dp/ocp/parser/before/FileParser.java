@@ -2,17 +2,11 @@ package swcs.dp.ocp.parser.before;
 
 public class FileParser {
 
-    private final String filePath;
-
-    public FileParser(String filePath) {
-        this.filePath = filePath;
-    }
-
-    public String parse() {
-        if (this.filePath.indexOf(".xml") > 1) {
-            return parseXML(this.filePath);
-        } else if (this.filePath.indexOf(".txt") > 1) {
-            return parseText(this.filePath);
+    public String parse(String filePath) {
+        if (filePath.indexOf(".xml") > 1) {
+            return parseXML(filePath);
+        } else if (filePath.indexOf(".json") > 1) {
+            return parseJson(filePath);
         }
 
         return null;
@@ -23,7 +17,7 @@ public class FileParser {
         return null;
     }
 
-    private String parseText(String filePath) {
+    private String parseJson(String filePath) {
         // logic
         return null;
     }
