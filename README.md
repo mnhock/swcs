@@ -18,6 +18,7 @@ Among other things, the following topics will be covered:
 
 - Overview of the basics of software quality 
 - Software metrics, metric application in practice 
+- Structured design, cohesion and coupling
 - Overview of Principles, Best Practices and Code Smells 
 - Compliance and verification of Java code conventions
 - Static software testing, especially review techniques and static program analysis 
