@@ -11,7 +11,7 @@ class FridgeTest {
     private static final String BEER = "BEER";
     private static final String RED_BULL = "RED_BULL";
 
-    private Fridge fridge = new Fridge();
+    private final Fridge fridge = new Fridge();
 
     @Test
     void shouldContainAddedProduct() {

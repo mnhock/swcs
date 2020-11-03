@@ -16,8 +16,6 @@ public class Converter {
 
         System.out.println("Compression: convert started.");
 
-        isSourceFormatSupported();
-
         Compression compression = CompressionFactory.from(type);
         File converted = compression.compress(this.source);
 
@@ -26,7 +24,4 @@ public class Converter {
         return converted;
     }
 
-    private void isSourceFormatSupported() {
-        // Check if source format supported
-    }
 }

@@ -15,12 +15,12 @@ final class Rental {
         this.days = checkRentDays(days);
     }
 
-    public int getDays() {
-        return this.days;
-    }
-
     public Movie getMovie() {
         return this.movie;
+    }
+
+    public int getDays() {
+        return this.days;
     }
 
     public double getCharge() {

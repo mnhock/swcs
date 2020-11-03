@@ -4,10 +4,10 @@ import java.io.Reader;
 
 public class JsonImporter implements Order.Importer {
 
-    private final Reader in;
+    private final Reader reader;
 
-    public JsonImporter(Reader in) {
-        this.in = in;
+    public JsonImporter(Reader reader) {
+        this.reader = reader;
     }
 
     @Override

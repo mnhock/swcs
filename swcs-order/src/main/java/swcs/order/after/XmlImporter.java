@@ -4,10 +4,10 @@ import java.io.Reader;
 
 public class XmlImporter implements Order.Importer {
 
-    private final Reader in;
+    private final Reader reader;
 
-    public XmlImporter(Reader in) {
-        this.in = in;
+    public XmlImporter(Reader reader) {
+        this.reader = reader;
     }
 
     @Override

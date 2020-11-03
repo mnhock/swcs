@@ -3,7 +3,6 @@ package swcs.mockito.raceresults;
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
@@ -12,7 +11,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 @ExtendWith(MockitoExtension.class)
 class RaceResultsServiceTest {
 
-    private RaceResultsService raceResults;
+    private final RaceResultsService raceResults = new RaceResultsService();
 
     @Mock
     private Client clientA;
@@ -20,11 +19,6 @@ class RaceResultsServiceTest {
     private Client clientB;
     @Mock
     private Message message;
-
-    @BeforeEach
-    void setUp() {
-        this.raceResults = new RaceResultsService();
-    }
 
     @Test
     void notSubscribedClientShouldNotReceiveMessage() {
