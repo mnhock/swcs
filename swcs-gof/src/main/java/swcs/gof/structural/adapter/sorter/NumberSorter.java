@@ -1,4 +1,4 @@
-package swcs.gof.structural.sorter.adapter;
+package swcs.gof.structural.adapter.sorter;
 
 import java.util.ArrayList;
 import java.util.List;
