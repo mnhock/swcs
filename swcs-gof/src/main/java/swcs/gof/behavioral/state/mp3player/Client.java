@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.state.mp3player;
 
-public class StateTester {
+public class Client {
 
     public static void main(String[] args) {
         MP3PlayerContext context = new MP3PlayerContext(new PlayingState());

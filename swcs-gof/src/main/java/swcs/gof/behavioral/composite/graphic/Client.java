@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.composite.graphic;
 
-public class CompositeTester {
+public class Client {
     public static void main(String[] args) {
         Composite sheet = new Sheet();
 

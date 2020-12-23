@@ -1,6 +1,6 @@
 package swcs.dp.lsp.figure.before;
 
-public class Tester {
+public class Client {
 
     public static void main(String[] args) {
         testArea(new Rectangle());

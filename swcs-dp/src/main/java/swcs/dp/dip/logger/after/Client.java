@@ -1,6 +1,6 @@
 package swcs.dp.dip.logger.after;
 
-class Tester {
+class Client {
 
     public static void main(String[] args) {
         Logger fsLogger = new Logger(new FileSystem());

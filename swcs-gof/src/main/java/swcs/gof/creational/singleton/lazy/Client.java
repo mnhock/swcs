@@ -1,6 +1,6 @@
-package swcs.gof.creational.singleton.eager;
+package swcs.gof.creational.singleton.lazy;
 
-public class SingletonTester {
+public class Client {
 
     public static void main(String[] args) {
         System.out.println(Singleton.getInstance().toString());

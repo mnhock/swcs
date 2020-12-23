@@ -9,12 +9,12 @@ public class NonLuxuryCar implements Car {
     }
 
     @Override
-    public String getCarName() {
+    public String getName() {
         return this.name;
     }
 
     @Override
-    public String getCarFeatures() {
+    public String getFeatures() {
         return "Non-Luxury Car Features ";
     }
 

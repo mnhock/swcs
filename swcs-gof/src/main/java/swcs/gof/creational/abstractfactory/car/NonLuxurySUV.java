@@ -9,12 +9,12 @@ public class NonLuxurySUV implements SUV {
     }
 
     @Override
-    public String getSUVName() {
+    public String getName() {
         return this.name;
     }
 
     @Override
-    public String getSUVFeatures() {
+    public String getFeatures() {
         return "Non-Luxury SUV Features ";
     }
 

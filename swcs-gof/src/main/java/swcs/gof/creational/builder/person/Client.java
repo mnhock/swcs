@@ -1,6 +1,6 @@
 package swcs.gof.creational.builder.person;
 
-public class ImmutablePersonTester {
+public class Client {
 
     public static void main(String[] args) {
         ImmutablePerson timo = ImmutablePerson.builder()

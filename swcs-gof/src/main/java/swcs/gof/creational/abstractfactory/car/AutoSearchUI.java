@@ -181,11 +181,11 @@ class ButtonHandler implements ActionListener {
 
             if (vhType.equals(AutoSearchUI.CAR)) {
                 Car c = vf.getCar();
-                searchResult = "Name: " + c.getCarName() + "  Features: " + c.getCarFeatures();
+                searchResult = "Name: " + c.getName() + "  Features: " + c.getFeatures();
             }
             if (vhType.equals(AutoSearchUI.SUV)) {
                 SUV s = vf.getSUV();
-                searchResult = "Name: " + s.getSUVName() + "  Features: " + s.getSUVFeatures();
+                searchResult = "Name: " + s.getName() + "  Features: " + s.getFeatures();
             }
             this.objAutoSearchUI.setResult(searchResult);
         }

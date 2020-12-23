@@ -1,6 +1,6 @@
 package swcs.gof.structural.decorator.window;
 
-public class DecoratorTester {
+public class Client {
 
     public static void main(String[] args) {
         Window window = new SimpleWindow();

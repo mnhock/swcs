@@ -1,6 +1,6 @@
 package swcs.gof.creational.builder.email;
 
-public class EmailTester {
+public class Client {
 
     public static void main(String[] args) {
         Email email = Email.builder()
