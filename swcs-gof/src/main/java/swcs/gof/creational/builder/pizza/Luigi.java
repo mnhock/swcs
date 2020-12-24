@@ -7,13 +7,11 @@ class Luigi {
         this.pizzaBuilder = pizzaBuilder;
     }
 
-    public Pizza getPizza() {
-        return this.pizzaBuilder.getPizza();
-    }
-
-    public void bakePizza() {
+    public Pizza bakePizza() {
         this.pizzaBuilder.buildDough();
         this.pizzaBuilder.buildSauce();
         this.pizzaBuilder.buildTopping();
+
+        return this.pizzaBuilder.getPizza();
     }
 }
