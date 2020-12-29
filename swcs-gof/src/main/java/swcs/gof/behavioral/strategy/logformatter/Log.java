@@ -9,7 +9,7 @@ public final class Log {
     private final String message;
     private final LocalDateTime date;
 
-    Log(String hash, String author, String message, LocalDateTime date) {
+    public Log(String hash, String author, String message, LocalDateTime date) {
         this.hash = hash;
         this.author = author;
         this.message = message;
