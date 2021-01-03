@@ -2,7 +2,7 @@ package swcs.converter.after;
 
 import java.io.File;
 
-public class ConverterTester {
+public class Client {
 
     public static void main(String[] args) {
         Converter converter = new Converter(new File("picture.tiff"));
