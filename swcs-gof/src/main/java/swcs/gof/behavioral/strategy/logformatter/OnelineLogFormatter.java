@@ -4,8 +4,8 @@ public class OnelineLogFormatter implements LogFormatter {
 
     @Override
     public String format(Log log) {
-        return String.format("%s %s", 
-                log.getHash(), 
+        return String.format("%s %s",
+                log.getHash(),
                 log.getMessage());
     }
 }
