@@ -1,10 +1,10 @@
 package swcs.gof.behavioral.state.mp3player;
 
-public class MP3PlayerContext {
+public class MP3Player {
 
     private State state;
 
-    public MP3PlayerContext(State state) {
+    public MP3Player(State state) {
         this.state = state;
     }
 

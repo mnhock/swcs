@@ -7,7 +7,7 @@ public class PlayingState implements State {
     }
 
     @Override
-    public void pressPlay(MP3PlayerContext context) {
-        context.setState(new StandByState());
+    public void pressPlay(MP3Player player) {
+        player.setState(new StandByState());
     }
 }
