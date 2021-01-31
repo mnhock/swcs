@@ -1,5 +1,5 @@
 package swcs.dp.isp.printer.after;
 
-interface Printer {
+public interface Printer {
     void print();
 }

@@ -1,5 +1,5 @@
 package swcs.dp.isp.printer.after;
 
-interface Scanner {
+public interface Scanner {
     void scan();
 }

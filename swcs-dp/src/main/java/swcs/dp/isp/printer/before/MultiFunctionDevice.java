@@ -1,6 +1,6 @@
 package swcs.dp.isp.printer.before;
 
-interface MultiFunctionDevice {
+public interface MultiFunctionDevice {
 
     void print();
 

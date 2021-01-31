@@ -1,5 +1,5 @@
 package swcs.dp.isp.printer.after;
 
-interface Fax {
+public interface Fax {
     void fax();
 }
