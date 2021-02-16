@@ -6,16 +6,16 @@ import java.util.Date;
 public class ImmutableCar {
 
     private String vin;
-    private Date manufactored;
+    private Date manufactured;
     private ArrayList previousOwners = new ArrayList();
 
-    public ImmutableCar(String number, Date manufactored) {
+    public ImmutableCar(String number, Date manufactured) {
         this.vin = number;
-        this.manufactored = manufactored;
+        this.manufactured = manufactured;
     }
 
-    public Date getManufactored() {
-        return this.manufactored;
+    public Date getManufactured() {
+        return this.manufactured;
     }
 
     public String getVin() {

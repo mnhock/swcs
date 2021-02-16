@@ -28,7 +28,7 @@ public class Bike {
         return this.price;
     }
 
-    public boolean isFullsupension() {
+    public boolean isFullSuspension() {
         return switch (this.type) {
         case 0 -> true;
         case 1 -> false;
