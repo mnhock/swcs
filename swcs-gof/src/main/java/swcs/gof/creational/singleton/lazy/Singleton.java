@@ -6,7 +6,7 @@ public class Singleton {
     private Singleton() {
     }
 
-    //Lazy Loading
+    // Lazy Loading
     public static synchronized Singleton getInstance() {
         if (instance == null) {
             instance = new Singleton();

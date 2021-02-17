@@ -6,7 +6,7 @@ public class Singleton {
     private Singleton() {
     }
 
-    //Eager Loading
+    // Eager Loading
     public static Singleton getInstance() {
         return instance;
     }

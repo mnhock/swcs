@@ -4,6 +4,6 @@ class Database implements Loggable {
 
     @Override
     public void log(String message) {
-        //writing in database
+        // writing in database
     }
 }

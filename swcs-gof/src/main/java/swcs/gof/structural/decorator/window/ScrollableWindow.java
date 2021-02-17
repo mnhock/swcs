@@ -14,7 +14,7 @@ public class ScrollableWindow extends DecoratedWindow {
     }
 
     private void renderScrollBar() {
-        this.scrollBar = new Object(); //prepare scrollbar
+        this.scrollBar = new Object(); // prepare scrollbar
         // render scrollbar
     }
 }

@@ -17,6 +17,6 @@ public class SortListAdapter implements Sorter {
 
         // convert the list back to an array and return
 
-        return numbers; //falsch
+        return numbers;
     }
 }
