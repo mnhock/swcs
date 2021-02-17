@@ -156,7 +156,7 @@ public class AutoSearchUI extends JFrame {
         return (String) this.cmbVehicleType.getSelectedItem();
     }
 
-    public void setResult(String searchResult) {
+    public void result(String searchResult) {
         this.lblCarNameValue.setText(searchResult);
     }
 } // End of class AutoSearchUI
@@ -187,7 +187,7 @@ class ButtonHandler implements ActionListener {
                 SUV s = vf.suv();
                 searchResult = "Name: " + s.name() + "  Features: " + s.features();
             }
-            this.objAutoSearchUI.setResult(searchResult);
+            this.objAutoSearchUI.result(searchResult);
         }
 
     }

@@ -9,7 +9,7 @@ public class Client {
         CompressionContext ctx = new CompressionContext();
 
         // we could assume context is already set by preferences
-        ctx.setCompressionStrategy(new RarCompressionStrategy());
+        ctx.compressionStrategy(new RarCompressionStrategy());
 
         // get a list of files
         ctx.createArchive(new ArrayList<File>());

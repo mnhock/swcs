@@ -5,15 +5,15 @@ final class Pizza {
     private String sauce;
     private String topping;
 
-    public void setDough(String dough) {
+    public void dough(String dough) {
         this.dough = dough;
     }
 
-    public void setSauce(String sauce) {
+    public void sauce(String sauce) {
         this.sauce = sauce;
     }
 
-    public void setTopping(String topping) {
+    public void topping(String topping) {
         this.topping = topping;
     }
 }

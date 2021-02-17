@@ -7,7 +7,7 @@ public class CompressionContext {
     private CompressionStrategy strategy;
 
     // this can be set at runtime by the application preferences
-    public void setCompressionStrategy(CompressionStrategy strategy) {
+    public void compressionStrategy(CompressionStrategy strategy) {
         this.strategy = strategy;
     }
 
