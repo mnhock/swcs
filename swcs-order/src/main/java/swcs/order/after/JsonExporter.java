@@ -14,6 +14,6 @@ public class JsonExporter implements Order.Exporter {
     public void exportOrder(Order order) {
         // ... logic implementation
 
-        // this.writer.write("{ \"order.id\":\"" + order.getId() + "\"");
+        // this.writer.write("{ \"order.id\":\"" + order.id() + "\"");
     }
 }

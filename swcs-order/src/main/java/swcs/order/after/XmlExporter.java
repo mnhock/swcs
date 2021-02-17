@@ -14,7 +14,7 @@ public class XmlExporter implements Order.Exporter {
     public void exportOrder(Order order) {
         // ... logic implementation
 
-        // this.writer.write("<order><id>" + order.getId() + "</id></order>");
+        // this.writer.write("<order><id>" + order.id() + "</id></order>");
     }
 
 }
