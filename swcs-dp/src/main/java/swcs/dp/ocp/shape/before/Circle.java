@@ -3,7 +3,7 @@ package swcs.dp.ocp.shape.before;
 public class Circle implements Shape {
 
     @Override
-    public int getType() {
+    public int type() {
         return Shape.CIRCLE;
     }
 }

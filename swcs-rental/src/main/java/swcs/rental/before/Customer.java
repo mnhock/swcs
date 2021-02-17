@@ -16,7 +16,7 @@ class Customer {
         this.name = name;
     }
 
-    public String getName() {
+    public String name() {
         return this.name;
     }
 
@@ -24,28 +24,28 @@ class Customer {
         double totalAmount = 0;
 
         Enumeration rentals = this.rentals.elements();
-        String result = "Rental Record for " + getName() + "\n";
+        String result = "Rental Record for " + name() + "\n";
         while (rentals.hasMoreElements()) {
             double thisAmount = 0;
             Rental each = (Rental) rentals.nextElement();
 
             //determine amounts for each line
-            switch (each.getMovie().getPriceCode()) {
+            switch (each.movie().priceCode()) {
             case Movie.CHILDREN:
-                thisAmount += each.getDaysRented() * 1;
+                thisAmount += each.daysRented() * 1;
 
                 break;
             case Movie.REGULAR:
-                thisAmount += each.getDaysRented() * 2;
+                thisAmount += each.daysRented() * 2;
 
                 break;
             case Movie.NEW_RELEASE:
-                thisAmount += each.getDaysRented() * 3;
+                thisAmount += each.daysRented() * 3;
                 break;
 
             }
             //show figures for this rental
-            result += "\t" + each.getMovie().getTitle() + "\t" + String.valueOf(thisAmount) + "\n";
+            result += "\t" + each.movie().title() + "\t" + String.valueOf(thisAmount) + "\n";
             totalAmount += thisAmount;
         }
         //add footer lines

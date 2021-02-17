@@ -4,12 +4,12 @@ class MargheritaPizzaBuilder extends PizzaBuilder {
 
     @Override
     public void buildDough() {
-        this.getPizza().setDough("cross");
+        this.pizza().setDough("cross");
     }
 
     @Override
     public void buildSauce() {
-        this.getPizza().setSauce("mild");
+        this.pizza().setSauce("mild");
     }
 
     @Override

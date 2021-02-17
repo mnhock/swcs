@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public interface Coupon {
 
-    BigDecimal getRegularPrice();
+    BigDecimal regularPrice();
 
     /**
      * Returns a {@code BigDecimal} whose value is {@code (+this)},

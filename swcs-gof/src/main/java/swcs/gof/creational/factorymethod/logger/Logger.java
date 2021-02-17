@@ -2,7 +2,7 @@ package swcs.gof.creational.factorymethod.logger;
 
 public interface Logger {
 
-    String getName();
+    String name();
 
     void log(String message);
 }

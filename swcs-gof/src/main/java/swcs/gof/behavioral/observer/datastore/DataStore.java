@@ -6,11 +6,11 @@ public class DataStore extends Observable {
 
     private String data;
 
-    public String getData() {
+    public String data() {
         return this.data;
     }
 
-    public void setData(String data) {
+    public void data(String data) {
         this.data = data;
         // mark the observable as changed
         setChanged();

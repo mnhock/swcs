@@ -12,6 +12,6 @@ class Luigi {
         this.pizzaBuilder.buildSauce();
         this.pizzaBuilder.buildTopping();
 
-        return this.pizzaBuilder.getPizza();
+        return this.pizzaBuilder.pizza();
     }
 }

@@ -5,11 +5,11 @@ public abstract class VehicleFactory {
     public static final String LUXURY_VEHICLE = "Luxury";
     public static final String NON_LUXURY_VEHICLE = "Non-Luxury";
 
-    public abstract Car getCar();
+    public abstract Car car();
 
-    public abstract SUV getSUV();
+    public abstract SUV suv();
 
-    public static VehicleFactory getVehicleFactory(String type) {
+    public static VehicleFactory vehicleFactory(String type) {
         if (VehicleFactory.LUXURY_VEHICLE.equals(type)) {
             return new LuxuryVehicleFactory();
         }

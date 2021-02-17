@@ -9,7 +9,7 @@ public class Butter implements FridgeElement {
         visitor.visit(this);
     }
 
-    LocalDate getExpiryDate() {
+    LocalDate expiryDate() {
         return LocalDate.of(2021, 10, 2);
     }
 }

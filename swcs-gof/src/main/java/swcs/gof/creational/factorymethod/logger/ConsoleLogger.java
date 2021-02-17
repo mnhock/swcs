@@ -8,7 +8,7 @@ public class ConsoleLogger implements Logger {
     }
 
     @Override
-    public String getName() {
+    public String name() {
         return getClass().getSimpleName();
     }
 

@@ -8,7 +8,7 @@ public class Circle implements Figure {
         this.radius = radius;
     }
 
-    public double getRadius() {
+    public double radius() {
         return this.radius;
     }
 

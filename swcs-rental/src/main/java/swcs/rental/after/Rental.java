@@ -15,16 +15,16 @@ final class Rental {
         this.days = checkRentDays(days);
     }
 
-    public Movie getMovie() {
+    public Movie movie() {
         return this.movie;
     }
 
-    public int getDays() {
+    public int days() {
         return this.days;
     }
 
-    public double getCharge() {
-        return this.movie.getCharge() * this.days;
+    public double charge() {
+        return this.movie.charge() * this.days;
     }
 
     private int checkRentDays(int days) {

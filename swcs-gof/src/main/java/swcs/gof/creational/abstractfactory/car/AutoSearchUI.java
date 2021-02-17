@@ -148,11 +148,11 @@ public class AutoSearchUI extends JFrame {
         frame.setVisible(true);
     }
 
-    public String getSelectedCategory() {
+    public String selectedCategory() {
         return (String) this.cmbVehicleCategory.getSelectedItem();
     }
 
-    public String getSelectedType() {
+    public String selectedType() {
         return (String) this.cmbVehicleType.getSelectedItem();
     }
 
@@ -173,19 +173,19 @@ class ButtonHandler implements ActionListener {
         }
         if (e.getActionCommand().equals(AutoSearchUI.SEARCH)) {
             // get input values
-            String vhCategory = this.objAutoSearchUI.getSelectedCategory();
-            String vhType = this.objAutoSearchUI.getSelectedType();
+            String vhCategory = this.objAutoSearchUI.selectedCategory();
+            String vhType = this.objAutoSearchUI.selectedType();
 
             // get one of Luxury or NonLuxury vehicle factories
-            VehicleFactory vf = VehicleFactory.getVehicleFactory(vhCategory);
+            VehicleFactory vf = VehicleFactory.vehicleFactory(vhCategory);
 
             if (vhType.equals(AutoSearchUI.CAR)) {
-                Car c = vf.getCar();
-                searchResult = "Name: " + c.getName() + "  Features: " + c.getFeatures();
+                Car c = vf.car();
+                searchResult = "Name: " + c.name() + "  Features: " + c.features();
             }
             if (vhType.equals(AutoSearchUI.SUV)) {
-                SUV s = vf.getSUV();
-                searchResult = "Name: " + s.getName() + "  Features: " + s.getFeatures();
+                SUV s = vf.suv();
+                searchResult = "Name: " + s.name() + "  Features: " + s.features();
             }
             this.objAutoSearchUI.setResult(searchResult);
         }

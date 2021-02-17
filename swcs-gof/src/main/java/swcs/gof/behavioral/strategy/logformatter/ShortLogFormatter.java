@@ -5,8 +5,8 @@ public class ShortLogFormatter implements LogFormatter {
     @Override
     public String format(Log log) {
         return String.format("Hash: %s%nAuthor: %s%nMessage: %s%n",
-                log.getHash(),
-                log.getAuthor(),
-                log.getMessage());
+                log.hash(),
+                log.author(),
+                log.message());
     }
 }

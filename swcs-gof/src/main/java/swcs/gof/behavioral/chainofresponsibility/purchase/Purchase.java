@@ -8,7 +8,7 @@ public final class Purchase {
         this.amount = amount;
     }
 
-    public double getAmount() {
+    public double amount() {
         return this.amount;
     }
 }

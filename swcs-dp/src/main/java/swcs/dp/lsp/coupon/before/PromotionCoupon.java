@@ -13,7 +13,7 @@ public class PromotionCoupon extends Coupon {
     @Override
     public BigDecimal afterDiscount(BigDecimal discount) {
         // strengthened pre-conditions and no check for null
-        if (getRegularPrice().compareTo(discount) < 0) {
+        if (regularPrice().compareTo(discount) < 0) {
             throw new IllegalArgumentException("Discount can not be greater than the price!");
         }
 

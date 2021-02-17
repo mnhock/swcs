@@ -9,7 +9,7 @@ public class Milk implements FridgeElement {
         visitor.visit(this);
     }
 
-    Date getBestBeforeDate() {
+    Date bestBeforeDate() {
         return new Date(2021 - 1900, 0, 1);
     }
 }

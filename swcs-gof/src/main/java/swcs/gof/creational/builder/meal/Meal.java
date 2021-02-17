@@ -6,27 +6,27 @@ public class Meal {
     private String main;
     private String dessert;
 
-    public String getDrink() {
+    public String drink() {
         return this.drink;
     }
 
-    public void setDrink(String drink) {
+    public void drink(String drink) {
         this.drink = drink;
     }
 
-    public String getMain() {
+    public String main() {
         return this.main;
     }
 
-    public void setMain(String main) {
+    public void main(String main) {
         this.main = main;
     }
 
-    public String getDessert() {
+    public String dessert() {
         return this.dessert;
     }
 
-    public void setDessert(String dessert) {
+    public void dessert(String dessert) {
         this.dessert = dessert;
     }
 

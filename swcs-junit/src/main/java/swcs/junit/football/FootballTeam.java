@@ -11,12 +11,12 @@ public class FootballTeam implements Comparable<FootballTeam> {
         this.gamesWon = gamesWon;
     }
 
-    public int getGamesWon() {
+    public int gamesWon() {
         return this.gamesWon;
     }
 
     @Override
     public int compareTo(FootballTeam otherTeam) {
-        return this.gamesWon - otherTeam.getGamesWon();
+        return this.gamesWon - otherTeam.gamesWon();
     }
 }

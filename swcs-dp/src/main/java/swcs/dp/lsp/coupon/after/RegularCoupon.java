@@ -11,7 +11,7 @@ public class RegularCoupon implements Coupon {
     }
 
     @Override
-    public BigDecimal getRegularPrice() {
+    public BigDecimal regularPrice() {
         return this.regularPrice;
     }
 

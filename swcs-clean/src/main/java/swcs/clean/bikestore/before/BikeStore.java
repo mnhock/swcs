@@ -18,7 +18,7 @@ public class BikeStore {
         ArrayList founds = new ArrayList();
 
         for (int i = 0; i < bikes.size(); i++) {
-            if (bikes.get(i).getType() == type) {
+            if (bikes.get(i).type() == type) {
                 founds.add(bikes.get(i));
             }
         }
@@ -30,7 +30,7 @@ public class BikeStore {
         ArrayList founds = new ArrayList();
 
         for (int i = 0; i < bikes.size(); i++) {
-            if (bikes.get(i).getPrice() >= lowerLimit && bikes.get(i).getPrice() <= upperLimit) {
+            if (bikes.get(i).price() >= lowerLimit && bikes.get(i).price() <= upperLimit) {
                 founds.add(bikes.get(i));
             }
         }
@@ -42,7 +42,7 @@ public class BikeStore {
         ArrayList founds = new ArrayList();
 
         for (int i = 0; i < bikes.size(); i++) {
-            if ((bikes.get(i).getPrice() >= lowerLimit && bikes.get(i).getPrice() <= upperLimit) && bikes.get(i).getType() == type) {
+            if ((bikes.get(i).price() >= lowerLimit && bikes.get(i).price() <= upperLimit) && bikes.get(i).type() == type) {
                 founds.add(bikes.get(i));
             }
         }

@@ -4,7 +4,7 @@ public class Client {
 
     public void draw(Shape[] shapes) {
         for (Shape shape : shapes) {
-            switch (shape.getType()) {
+            switch (shape.type()) {
             case Shape.SQUARE:
                 draw((Square) shape);
                 break;

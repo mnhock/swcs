@@ -7,7 +7,7 @@ public class Person {
 
     // Copy constructor
     public Person(Person person) {
-        this(person.getName(), new Address(person.getAddress()));
+        this(person.name(), new Address(person.address()));
     }
 
     public Person(String name, Address address) {
@@ -15,24 +15,24 @@ public class Person {
         this.address = address;
     }
 
-    public String getName() {
+    public String name() {
         return this.name;
     }
 
-    public void setName(String name) {
+    public void name(String name) {
         this.name = name;
     }
 
-    public Address getAddress() {
+    public Address address() {
         return this.address;
     }
 
-    public void setAddress(Address address) {
+    public void address(Address address) {
         this.address = address;
     }
 
     // Copy factory
     public static Person newInstance(Person person) {
-        return new Person(person.getName(), new Address(person.getAddress()));
+        return new Person(person.name(), new Address(person.address()));
     }
 }

@@ -8,7 +8,7 @@ public class Client {
     }
 
     public static void testArea(Rectangle rectangle) {
-        if (rectangle.getArea() != 20) {
+        if (rectangle.area() != 20) {
             throw new IllegalStateException("Error in area calculation!");
         }
     }

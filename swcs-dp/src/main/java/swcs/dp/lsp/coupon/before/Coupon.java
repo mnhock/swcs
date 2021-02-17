@@ -10,7 +10,7 @@ public class Coupon {
         this.regularPrice = regularPrice;
     }
 
-    public BigDecimal getRegularPrice() {
+    public BigDecimal regularPrice() {
         return this.regularPrice;
     }
 

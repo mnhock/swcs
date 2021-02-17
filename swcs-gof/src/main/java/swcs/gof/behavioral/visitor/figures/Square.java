@@ -8,7 +8,7 @@ public class Square implements Figure {
         this.side = side;
     }
 
-    public double getSide() {
+    public double side() {
         return this.side;
     }
 

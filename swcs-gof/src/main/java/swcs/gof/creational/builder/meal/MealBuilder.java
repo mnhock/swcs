@@ -14,7 +14,7 @@ public abstract class MealBuilder {
 
     public abstract void buildDessert();
 
-    public Meal getMeal() {
+    public Meal meal() {
         return this.meal;
     }
 }

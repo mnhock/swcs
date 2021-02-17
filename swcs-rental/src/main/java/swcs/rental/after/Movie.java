@@ -2,7 +2,7 @@ package swcs.rental.after;
 
 public interface Movie {
 
-    String getTitle();
+    String title();
 
-    double getCharge();
+    double charge();
 }

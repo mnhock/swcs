@@ -12,15 +12,15 @@ public final class Book {
         this.content = content;
     }
 
-    public String getTitle() {
+    public String title() {
         return this.title;
     }
 
-    public String getAuthor() {
+    public String author() {
         return this.author;
     }
 
-    public String getContent() {
+    public String content() {
         return this.content;
     }
 

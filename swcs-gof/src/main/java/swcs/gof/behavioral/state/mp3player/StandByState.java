@@ -8,6 +8,6 @@ public class StandByState implements State {
 
     @Override
     public void pressPlay(MP3Player player) {
-        player.setState(new PlayingState());
+        player.state(new PlayingState());
     }
 }

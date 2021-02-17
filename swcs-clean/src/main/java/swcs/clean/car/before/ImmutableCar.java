@@ -14,15 +14,15 @@ public class ImmutableCar {
         this.manufactured = manufactured;
     }
 
-    public Date getManufactured() {
+    public Date anufactured() {
         return this.manufactured;
     }
 
-    public String getVin() {
+    public String vin() {
         return this.vin;
     }
 
-    public ArrayList getPreviousOwners() {
+    public ArrayList previousOwners() {
         return this.previousOwners;
     }
 

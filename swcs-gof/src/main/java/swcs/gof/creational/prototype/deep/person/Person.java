@@ -10,19 +10,19 @@ public class Person implements Cloneable {
         this.address = address;
     }
 
-    public String getName() {
+    public String name() {
         return this.name;
     }
 
-    public void setName(String name) {
+    public void name(String name) {
         this.name = name;
     }
 
-    public Address getAddress() {
+    public Address address() {
         return this.address;
     }
 
-    public void setAddress(Address address) {
+    public void address(Address address) {
         this.address = address;
     }
 
@@ -30,7 +30,7 @@ public class Person implements Cloneable {
     public Person clone() {
         try {
             Person person = (Person) super.clone();
-            person.setAddress(person.address.clone());
+            person.address(person.address.clone());
 
             return person;
         } catch (CloneNotSupportedException e) {

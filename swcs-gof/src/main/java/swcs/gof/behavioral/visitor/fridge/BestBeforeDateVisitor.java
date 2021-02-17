@@ -13,12 +13,12 @@ public class BestBeforeDateVisitor implements Visitor {
 
     @Override
     public void visit(Beer beer) {
-        checkBestBeforDate(beer, beer.getBestBeforeDate()); // method differ
+        checkBestBeforDate(beer, beer.bestBeforeDate()); // method differ
     }
 
     @Override
     public void visit(Milk milk) {
-        checkBestBeforDate(milk, milk.getBestBeforeDate() // method differ
+        checkBestBeforDate(milk, milk.bestBeforeDate() // method differ
                 .toInstant()
                 .atZone(ZoneId.systemDefault())
                 .toLocalDate());
@@ -26,7 +26,7 @@ public class BestBeforeDateVisitor implements Visitor {
 
     @Override
     public void visit(Butter butter) {
-        checkBestBeforDate(butter, butter.getExpiryDate()); // method differ
+        checkBestBeforDate(butter, butter.expiryDate()); // method differ
     }
 
     private void checkBestBeforDate(FridgeElement element, LocalDate bestBeforeDate) {

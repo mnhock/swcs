@@ -2,8 +2,8 @@ package swcs.gof.creational.abstractfactory.car;
 
 public interface Car {
 
-    String getName();
+    String name();
 
-    String getFeatures();
+    String features();
 
 }

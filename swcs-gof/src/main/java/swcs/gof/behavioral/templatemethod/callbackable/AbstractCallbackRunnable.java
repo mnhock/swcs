@@ -52,19 +52,19 @@ abstract class AbstractCallbackRunnable implements Callbackable {
         onSuccess();
     }
 
-    public Status getStatus() {
+    public Status status() {
         return this.status;
     }
 
-    public LocalDateTime getSubmittedTime() {
+    public LocalDateTime submittedTime() {
         return this.submittedTime;
     }
 
-    public LocalDateTime getStartedTime() {
+    public LocalDateTime startedTime() {
         return this.startedTime;
     }
 
-    public LocalDateTime getFinishedTime() {
+    public LocalDateTime finishedTime() {
         return this.finishedTime;
     }
 

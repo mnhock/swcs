@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FlightBooker {
 
-    public List<Flight> getFlights(LocalDate from, LocalDate to) {
+    public List<Flight> flights(LocalDate from, LocalDate to) {
         //returns flights available in the particular date range
         return null;
     }

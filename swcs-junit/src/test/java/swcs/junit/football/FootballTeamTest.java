@@ -17,7 +17,7 @@ class FootballTeamTest {
     void constructorShouldSetGamesWon(int nbOfGamesWon) {
         FootballTeam team = new FootballTeam(nbOfGamesWon);
 
-        assertEquals(nbOfGamesWon, team.getGamesWon());
+        assertEquals(nbOfGamesWon, team.gamesWon());
     }
 
     @ParameterizedTest

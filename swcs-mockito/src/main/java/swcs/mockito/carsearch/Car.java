@@ -2,9 +2,9 @@ package swcs.mockito.carsearch;
 
 public interface Car {
 
-    Engine getEngine();
+    Engine engine();
 
-    Manufacturer getManufacturer();
+    Manufacturer manufacturer();
 
     boolean isSportCar();
 }

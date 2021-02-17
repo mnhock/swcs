@@ -10,11 +10,11 @@ public class Rectangle implements Figure {
         this.height = height;
     }
 
-    public double getWeight() {
+    public double weight() {
         return this.weight;
     }
 
-    public double getHeight() {
+    public double height() {
         return this.height;
     }
 

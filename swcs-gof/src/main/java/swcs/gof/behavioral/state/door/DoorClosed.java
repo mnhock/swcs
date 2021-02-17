@@ -8,6 +8,6 @@ public class DoorClosed implements DoorState {
 
     @Override
     public void handle(Door door) {
-        door.setState(new DoorOpening());
+        door.state(new DoorOpening());
     }
 }

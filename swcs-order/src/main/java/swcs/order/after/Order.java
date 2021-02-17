@@ -17,7 +17,7 @@ public final class Order {
         this.id = order.id;
     }
 
-    public int getId() {
+    public int id() {
         return this.id;
     }
 

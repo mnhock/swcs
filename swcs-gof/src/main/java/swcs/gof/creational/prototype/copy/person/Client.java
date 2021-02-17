@@ -13,8 +13,8 @@ public class Client {
         // Person clone = Person.newInstance(orginal);
         print("Clone", clone);
 
-        clone.setName("Modified name");
-        clone.getAddress().setCity("Modified city");
+        clone.name("Modified name");
+        clone.address().city("Modified city");
 
         print("Clone after modification", clone);
         print("Orginal after clone modification", orginal);
@@ -23,7 +23,7 @@ public class Client {
     private static void print(String object, Person person) {
         System.out.println(String.format("%s: %s, %s",
                 object,
-                person.getName(),
-                person.getAddress().getCity()));
+                person.name(),
+                person.address().city()));
     }
 }

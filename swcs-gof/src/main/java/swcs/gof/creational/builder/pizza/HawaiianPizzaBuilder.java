@@ -4,16 +4,16 @@ class HawaiianPizzaBuilder extends PizzaBuilder {
 
     @Override
     public void buildDough() {
-        this.getPizza().setDough("cross");
+        this.pizza().setDough("cross");
     }
 
     @Override
     public void buildSauce() {
-        this.getPizza().setSauce("mild");
+        this.pizza().setSauce("mild");
     }
 
     @Override
     public void buildTopping() {
-        this.getPizza().setTopping("ham+pineapple");
+        this.pizza().setTopping("ham+pineapple");
     }
 }

@@ -3,12 +3,12 @@ package swcs.gof.creational.abstractfactory.car;
 public class LuxuryVehicleFactory extends VehicleFactory {
 
     @Override
-    public Car getCar() {
+    public Car car() {
         return new LuxuryCar("L-C");
     }
 
     @Override
-    public SUV getSUV() {
+    public SUV suv() {
         return new LuxurySUV("L-S");
     }
 }

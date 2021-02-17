@@ -10,19 +10,19 @@ public class Address implements Cloneable {
         this.street = street;
     }
 
-    public String getCity() {
+    public String city() {
         return this.city;
     }
 
-    public void setCity(String city) {
+    public void city(String city) {
         this.city = city;
     }
 
-    public String getStreet() {
+    public String street() {
         return this.street;
     }
 
-    public void setStreet(String street) {
+    public void street(String street) {
         this.street = street;
     }
 

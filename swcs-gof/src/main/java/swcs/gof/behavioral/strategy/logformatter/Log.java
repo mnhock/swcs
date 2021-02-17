@@ -16,19 +16,19 @@ public final class Log {
         this.date = date;
     }
 
-    public String getHash() {
+    public String hash() {
         return this.hash;
     }
 
-    public String getAuthor() {
+    public String author() {
         return this.author;
     }
 
-    public String getMessage() {
+    public String message() {
         return this.message;
     }
 
-    public LocalDateTime getDate() {
+    public LocalDateTime date() {
         return this.date;
     }
 }

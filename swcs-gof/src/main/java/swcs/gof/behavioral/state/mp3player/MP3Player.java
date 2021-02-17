@@ -12,11 +12,11 @@ public class MP3Player {
         this.state.pressPlay(this);
     }
 
-    public void setState(State state) {
+    public void state(State state) {
         this.state = state;
     }
 
-    public State getState() {
+    public State state() {
         return this.state;
     }
 }

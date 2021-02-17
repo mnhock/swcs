@@ -12,11 +12,11 @@ public class Door {
         this.state.handle(this);
     }
 
-    public void setState(DoorState state) {
+    public void state(DoorState state) {
         this.state = state;
     }
 
-    public DoorState getState() {
+    public DoorState state() {
         return this.state;
     }
 }

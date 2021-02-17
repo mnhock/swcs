@@ -15,15 +15,15 @@ public class Email {
         this.recipients = recipients;
     }
 
-    public String getSubject() {
+    public String subject() {
         return this.subject;
     }
 
-    public String getMessage() {
+    public String message() {
         return this.message;
     }
 
-    public String getRecipients() {
+    public String recipients() {
         return this.recipients;
     }
 

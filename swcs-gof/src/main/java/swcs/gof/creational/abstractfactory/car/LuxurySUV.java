@@ -9,12 +9,12 @@ public class LuxurySUV implements SUV {
     }
 
     @Override
-    public String getName() {
+    public String name() {
         return this.name;
     }
 
     @Override
-    public String getFeatures() {
+    public String features() {
         return "Luxury SUV Features ";
     }
 

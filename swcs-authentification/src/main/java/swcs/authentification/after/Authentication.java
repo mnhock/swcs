@@ -2,6 +2,6 @@ package swcs.authentification.after;
 
 public interface Authentication {
 
-    int getId();
+    int id();
 
 }

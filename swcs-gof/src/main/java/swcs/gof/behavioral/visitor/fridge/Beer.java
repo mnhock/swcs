@@ -9,7 +9,7 @@ public class Beer implements FridgeElement {
         visitor.visit(this);
     }
 
-    LocalDate getBestBeforeDate() {
+    LocalDate bestBeforeDate() {
         return LocalDate.of(2022, 1, 28);
     }
 }

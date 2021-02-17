@@ -14,6 +14,6 @@ public class Client {
         }
 
         Meal meal = director.createMeal(builder);
-        System.out.println(meal.getMain());
+        System.out.println(meal.main());
     }
 }

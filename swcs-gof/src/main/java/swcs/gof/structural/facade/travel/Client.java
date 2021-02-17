@@ -6,6 +6,6 @@ public class Client {
 
     public static void main(String[] args) {
         TravelFacade facade = new TravelFacade();
-        facade.getAvailableTravels(LocalDate.now(), LocalDate.now().plusMonths(2));
+        facade.availableTravels(LocalDate.now(), LocalDate.now().plusMonths(2));
     }
 }

@@ -7,7 +7,7 @@ public class Address {
 
     // Copy constructor
     public Address(Address address) {
-        this(address.getCity(), address.getStreet());
+        this(address.city(), address.street());
     }
 
     public Address(String city, String street) {
@@ -15,24 +15,24 @@ public class Address {
         this.street = street;
     }
 
-    public String getCity() {
+    public String city() {
         return this.city;
     }
 
-    public void setCity(String city) {
+    public void city(String city) {
         this.city = city;
     }
 
-    public String getStreet() {
+    public String street() {
         return this.street;
     }
 
-    public void setStreet(String street) {
+    public void street(String street) {
         this.street = street;
     }
 
     // Copy factory
     public static Address newInstance(Address address) {
-        return new Address(address.getCity(), address.getStreet());
+        return new Address(address.city(), address.street());
     }
 }

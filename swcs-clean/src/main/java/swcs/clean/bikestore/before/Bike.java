@@ -16,15 +16,15 @@ public class Bike {
         this.price = price;
     }
 
-    public String getManufacturer() {
+    public String manufacturer() {
         return this.manufacturer;
     }
 
-    public int getType() {
+    public int type() {
         return this.type;
     }
 
-    public float getPrice() {
+    public float price() {
         return this.price;
     }
 

@@ -14,7 +14,7 @@ final class Customer implements Iterable<Rental> {
         this.rentals = new ArrayList<>();
     }
 
-    public String getName() {
+    public String name() {
         return this.name;
     }
 
@@ -25,14 +25,14 @@ final class Customer implements Iterable<Rental> {
     public double totalAmout() {
         return this.rentals
                 .stream()
-                .mapToDouble(Rental::getCharge)
+                .mapToDouble(Rental::charge)
                 .sum();
     }
 
     public void overview() {
-        System.out.format("Rental Record for %s%n", getName());
+        System.out.format("Rental Record for %s%n", name());
 
-        this.rentals.forEach(r -> System.out.format("\t%s\t%d%n", r.getMovie().getTitle(), r.getDays()));
+        this.rentals.forEach(r -> System.out.format("\t%s\t%d%n", r.movie().title(), r.days()));
 
         System.out.format("Amount owed is %.2f%n", totalAmout());
     }

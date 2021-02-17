@@ -5,23 +5,23 @@ public class Rectangle {
     private double height;
     private double width;
 
-    public double getHeight() {
+    public double height() {
         return this.height;
     }
 
-    public double getWidth() {
+    public double width() {
         return this.width;
     }
 
-    public void setHeight(double height) {
+    public void height(double height) {
         this.height = height;
     }
 
-    public void setWidth(double width) {
+    public void width(double width) {
         this.width = width;
     }
 
-    public double getArea() {
+    public double area() {
         return this.width * this.height;
     }
 }

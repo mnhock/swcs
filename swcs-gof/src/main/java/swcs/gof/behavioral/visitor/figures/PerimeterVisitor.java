@@ -4,16 +4,16 @@ public class PerimeterVisitor implements Visitor<Double> {
 
     @Override
     public Double visit(Square element) {
-        return 4 * element.getSide();
+        return 4 * element.side();
     }
 
     @Override
     public Double visit(Circle element) {
-        return 2 * Math.PI * element.getRadius();
+        return 2 * Math.PI * element.radius();
     }
 
     @Override
     public Double visit(Rectangle element) {
-        return 2 * element.getHeight() + 2 * element.getHeight();
+        return 2 * element.height() + 2 * element.height();
     }
 }

@@ -11,7 +11,7 @@ abstract class AbstractMovie implements Movie {
     }
 
     @Override
-    public String getTitle() {
+    public String title() {
         return this.title;
     }
 

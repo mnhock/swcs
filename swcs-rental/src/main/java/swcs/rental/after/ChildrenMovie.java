@@ -9,7 +9,7 @@ class ChildrenMovie extends AbstractMovie {
     }
 
     @Override
-    public double getCharge() {
+    public double charge() {
         return CHARGE;
     }
 }

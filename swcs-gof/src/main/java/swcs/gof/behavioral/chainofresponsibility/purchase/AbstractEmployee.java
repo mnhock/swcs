@@ -9,7 +9,7 @@ public abstract class AbstractEmployee implements Employee {
         this.nextEmployee = nextEmployee;
     }
 
-    public Employee getNext() {
+    public Employee next() {
         return this.nextEmployee;
     }
 }

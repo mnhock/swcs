@@ -7,9 +7,9 @@ public class TravelFacade {
     private HotelBooker hotelBooker;
     private FlightBooker flightBooker;
 
-    public Travels getAvailableTravels(LocalDate from, LocalDate to) {
-        List<Flight> flights = this.flightBooker.getFlights(from, to);
-        List<Hotel> hotels = this.hotelBooker.getHotels(from, to);
+    public Travels availableTravels(LocalDate from, LocalDate to) {
+        List<Flight> flights = this.flightBooker.flights(from, to);
+        List<Hotel> hotels = this.hotelBooker.hotels(from, to);
 
         //process
         return null;

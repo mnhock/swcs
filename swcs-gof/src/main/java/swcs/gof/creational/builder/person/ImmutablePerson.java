@@ -15,15 +15,15 @@ public class ImmutablePerson {
         this.favoriteDishes = builder.favoriteDishes;
     }
 
-    public String getName() {
+    public String name() {
         return this.name;
     }
 
-    public String getCity() {
+    public String city() {
         return this.city;
     }
 
-    public List<String> getFavoriteDishes() {
+    public List<String> favoriteDishes() {
         return this.favoriteDishes != null ? new ArrayList<>(this.favoriteDishes) : null;
     }
 

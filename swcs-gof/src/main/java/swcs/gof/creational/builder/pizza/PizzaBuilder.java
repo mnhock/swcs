@@ -7,7 +7,7 @@ abstract class PizzaBuilder {
         this.pizza = new Pizza();
     }
 
-    public Pizza getPizza() {
+    public Pizza pizza() {
         return this.pizza;
     }
 

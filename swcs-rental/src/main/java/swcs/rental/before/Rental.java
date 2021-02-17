@@ -10,11 +10,11 @@ final class Rental {
         this.daysRented = daysRented;
     }
 
-    public Movie getMovie() {
+    public Movie movie() {
         return this.movie;
     }
 
-    public int getDaysRented() {
+    public int daysRented() {
         return this.daysRented;
     }
 

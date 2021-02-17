@@ -7,6 +7,6 @@ public class MealDirector {
         builder.buildMain();
         builder.buildDessert();
 
-        return builder.getMeal();
+        return builder.meal();
     }
 }

@@ -11,7 +11,7 @@ public class Client {
         dataStore.addObserver(new SecondScreen());
 
         // do something with dataStore
-        dataStore.setData("changed");
+        dataStore.data("changed");
 
         // send a notification
         dataStore.notifyObservers();
