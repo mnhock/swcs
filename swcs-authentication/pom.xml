@@ -10,7 +10,7 @@
 		<groupId>swcs</groupId>
 	</parent>
 
-	<artifactId>swcs-authentification</artifactId>
+	<artifactId>swcs-authentication</artifactId>
 	<name>swcs-clean</name>
 	<packaging>jar</packaging>
 

@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.chainofresponsibility.authentification;
+package swcs.gof.behavioral.chainofresponsibility.authentication;
 
 public class Client {
 

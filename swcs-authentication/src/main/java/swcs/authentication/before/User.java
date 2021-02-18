@@ -1,4 +1,4 @@
-package swcs.authentification.before;
+package swcs.authentication.before;
 
 public class User {
 

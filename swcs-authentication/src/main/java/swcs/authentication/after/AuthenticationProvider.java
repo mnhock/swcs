@@ -1,4 +1,4 @@
-package swcs.authentification.after;
+package swcs.authentication.after;
 
 public interface AuthenticationProvider {
 

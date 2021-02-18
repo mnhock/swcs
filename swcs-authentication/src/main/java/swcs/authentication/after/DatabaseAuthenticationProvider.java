@@ -1,6 +1,6 @@
-package swcs.authentification.after;
+package swcs.authentication.after;
 
-public class LDAPAuthenticationProvider implements AuthenticationProvider {
+public class DatabaseAuthenticationProvider implements AuthenticationProvider {
 
     @Override
     public boolean authenticate(Authentication authentication) {

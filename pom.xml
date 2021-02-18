@@ -22,7 +22,7 @@
 		<module>swcs-playground</module>
 		<module>swcs-clean</module>
 		<module>swcs-order</module>
-		<module>swcs-authentification</module>
+		<module>swcs-authentication</module>
 	</modules>
 
 	<properties>

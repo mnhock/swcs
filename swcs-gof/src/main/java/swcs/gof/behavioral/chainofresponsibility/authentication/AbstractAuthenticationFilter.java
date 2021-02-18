@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.chainofresponsibility.authentification;
+package swcs.gof.behavioral.chainofresponsibility.authentication;
 
 public abstract class AbstractAuthenticationFilter implements AuthenticationFilter {
 
@@ -9,9 +9,9 @@ public abstract class AbstractAuthenticationFilter implements AuthenticationFilt
         this.nextFilter = nextFilter;
     }
 
-    public boolean nextFilter(Authentification authentification) {
+    public boolean nextFilter(Authentication authentication) {
         if (this.nextFilter != null) {
-            return this.nextFilter.isAuthentificated(authentification);
+            return this.nextFilter.isAuthentificated(authentication);
         }
 
         return false;
