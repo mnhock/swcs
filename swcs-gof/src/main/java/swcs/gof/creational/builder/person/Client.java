@@ -6,7 +6,7 @@ public class Client {
         ImmutablePerson timo = ImmutablePerson.builder()
                 .withName("Timo")
                 .withCity("Nürnberg")
-                .addFavoriteDish("Nuldeln")
+                .addFavoriteDish("Nudeln")
                 .addFavoriteDish("Müsli")
                 .addFavoriteDish("Pfannkuchen")
                 .build();
