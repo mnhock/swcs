@@ -1,6 +1,6 @@
 ## SWCS
 
-Code for the course Softwarecraftmanship and Clean Code at:
+Code for the course Softwarecraftmanship and Clean Code at the universities:
 
 * https://www.th-nuernberg.de/
 * https://www.hs-ansbach.de/
