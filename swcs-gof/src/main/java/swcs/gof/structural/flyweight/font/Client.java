@@ -12,5 +12,4 @@ public class Client {
         System.out.println(factory.of("Helvetica", 12));
         System.out.println(factory.of("Arial ", 10));
     }
-
 }

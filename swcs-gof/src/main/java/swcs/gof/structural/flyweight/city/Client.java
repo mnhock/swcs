@@ -12,5 +12,4 @@ public class Client {
 
         new Person("Reube", "Gregoretti", "08 Melrose Street", factory.of("Japan", "JP", "Mutsu"));
     }
-
 }
