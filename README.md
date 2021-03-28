@@ -40,7 +40,7 @@ Among other things, the following topics will be covered:
 
 Exercises can be found [here][1].
 
-## Book
+## Study Book
 
 https://leanpub.com/clean-code-fundamentals
 
