@@ -42,7 +42,7 @@ Exercises can be found [here][1].
 
 ## Book
 
-**Clean Code Fundamentals** A Hands-on Guide to Understand the Fundamentals of Software Craftsmanship and Clean Code in Java.
+**Clean Code Fundamentals.** A Hands-on Guide to Understand the Fundamentals of Software Craftsmanship and Clean Code in Java.
 
 https://leanpub.com/clean-code-fundamentals
 
