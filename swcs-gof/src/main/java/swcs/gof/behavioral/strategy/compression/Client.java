@@ -12,6 +12,6 @@ public class Client {
         ctx.compressionStrategy(new RarCompressionStrategy());
 
         // get a list of files
-        ctx.createArchive(new ArrayList<File>());
+        ctx.createArchive(new ArrayList<>());
     }
 }

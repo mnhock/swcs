@@ -32,7 +32,7 @@ class Customer {
             // determine amounts for each line
             switch (each.movie().priceCode()) {
             case Movie.CHILDREN:
-                thisAmount += each.daysRented() * 1;
+                thisAmount += each.daysRented();
 
                 break;
             case Movie.REGULAR:
@@ -45,11 +45,11 @@ class Customer {
 
             }
             // show figures for this rental
-            result += "\t" + each.movie().title() + "\t" + String.valueOf(thisAmount) + "\n";
+            result += "\t" + each.movie().title() + "\t" + thisAmount + "\n";
             totalAmount += thisAmount;
         }
         // add footer lines
-        result += "Amount owed is " + String.valueOf(totalAmount) + "\n";
+        result += "Amount owed is " + totalAmount + "\n";
 
         System.out.println(result);
     }
