@@ -11,7 +11,7 @@ public class NewlineFormatter implements TextFormattable {
         if (text != null && separator != null) {
             return Stream.of(text.split(Pattern.quote(separator)))
                     .map(String::stripLeading)
-                    .collect(Collectors.joining("\n"));
+                    .collect(Collectors.joining(System.lineSeparator()));
         }
 
         return null;
