@@ -4,9 +4,9 @@ import java.util.function.DoubleBinaryOperator;
 
 public enum Operation {
 
-    PLUS((x, y) -> x + y), 
-    MINUS((x, y) -> x - y), 
-    MULTIPLY((x, y) -> x * y), 
+    PLUS((x, y) -> x + y),
+    MINUS((x, y) -> x - y),
+    MULTIPLY((x, y) -> x * y),
     DIVIDE((x, y) -> x / y);
 
     private final DoubleBinaryOperator operator;

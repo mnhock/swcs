@@ -18,7 +18,7 @@ public class Coupon {
         if (discount == null) {
             return this.regularPrice;
         }
-        
+
         if (this.regularPrice.compareTo(discount) > 0) {
             return this.regularPrice.subtract(discount);
         }
