@@ -10,7 +10,7 @@
 	<packaging>pom</packaging>
 
 	<name>SWCS</name>
-	<description>Software Craftmanship</description>
+	<description>Software Craftsmanship</description>
 
 	<modules>
 		<module>swcs-rental</module>

@@ -3,7 +3,7 @@ package swcs.gof.behavioral.chainofresponsibility.authentication;
 public class BearerAuthenticationFilter extends AbstractAuthenticationFilter {
 
     @Override
-    public boolean isAuthentificated(Authentication authentication) {
+    public boolean isAuthenticated(Authentication authentication) {
         if (authentication instanceof BearerAuthentication) {
             // logic
             return true;

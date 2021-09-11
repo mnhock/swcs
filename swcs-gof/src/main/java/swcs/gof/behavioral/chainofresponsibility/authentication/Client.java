@@ -10,6 +10,6 @@ public class Client {
         digestFilter.setNextFilter(bearerFilter);
         bearerFilter.setNextFilter(basicFilter);
 
-        System.out.println(digestFilter.isAuthentificated(new BearerAuthentication()));  // true
+        System.out.println(digestFilter.isAuthenticated(new BearerAuthentication()));  // true
     }
 }

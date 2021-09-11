@@ -18,7 +18,7 @@ public class Television {
         System.out.println("Volume: " + this.volume);
     }
 
-    public void volumenDown() {
+    public void volumeDown() {
         this.volume--;
 
         System.out.println("Volume: " + this.volume);

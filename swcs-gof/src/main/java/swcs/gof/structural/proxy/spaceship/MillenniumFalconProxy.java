@@ -15,7 +15,7 @@ public final class MillenniumFalconProxy implements Spaceship {
         if ("Han Solo".equals(this.pilot.name())) {
             this.ship.fly();
         } else {
-            System.out.printf("Sorry %s, only Han Solo can fly the Falcon!\n", this.pilot.name());
+            System.out.printf("Sorry %s, only Han Solo can fly the Falcon!%n", this.pilot.name());
         }
     }
 }

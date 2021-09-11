@@ -22,7 +22,7 @@ final class Customer implements Iterable<Rental> {
         this.rentals.add(rental);
     }
 
-    public double totalAmout() {
+    public double totalAmount() {
         return this.rentals
                 .stream()
                 .mapToDouble(Rental::charge)
@@ -34,7 +34,7 @@ final class Customer implements Iterable<Rental> {
 
         this.rentals.forEach(r -> System.out.format("\t%s\t%d%n", r.movie().title(), r.days()));
 
-        System.out.format("Amount owed is %.2f%n", totalAmout());
+        System.out.format("Amount owed is %.2f%n", totalAmount());
     }
 
     @Override

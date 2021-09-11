@@ -4,7 +4,7 @@ public class Row extends Composite {
 
     @Override
     public void paint() {
-        System.out.println(String.format(" %s", Row.class.getSimpleName()));
+        System.out.printf(" %s%n", Row.class.getSimpleName());
         super.paint();
     }
 }

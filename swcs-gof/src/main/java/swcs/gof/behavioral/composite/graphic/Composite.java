@@ -19,9 +19,7 @@ public abstract class Composite implements Component {
     }
 
     public void remove(Component component) {
-        if (this.components.contains(component)) {
-            this.components.remove(component);
-        }
+        this.components.remove(component);
     }
 
     public Component get(int index) {

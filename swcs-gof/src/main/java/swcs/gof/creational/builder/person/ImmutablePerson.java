@@ -3,7 +3,7 @@ package swcs.gof.creational.builder.person;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ImmutablePerson {
+public final class ImmutablePerson {
 
     private final String name;
     private final String city;

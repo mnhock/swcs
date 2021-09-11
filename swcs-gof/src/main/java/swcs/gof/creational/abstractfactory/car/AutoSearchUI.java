@@ -168,10 +168,10 @@ class ButtonHandler implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String searchResult = null;
 
-        if (e.getActionCommand().equals(AutoSearchUI.EXIT)) {
+        if (AutoSearchUI.EXIT.equals(e.getActionCommand())) {
             System.exit(1);
         }
-        if (e.getActionCommand().equals(AutoSearchUI.SEARCH)) {
+        if (AutoSearchUI.SEARCH.equals(e.getActionCommand())) {
             // get input values
             String vhCategory = this.objAutoSearchUI.selectedCategory();
             String vhType = this.objAutoSearchUI.selectedType();
@@ -179,11 +179,11 @@ class ButtonHandler implements ActionListener {
             // get one of Luxury or NonLuxury vehicle factories
             VehicleFactory vf = VehicleFactory.vehicleFactory(vhCategory);
 
-            if (vhType.equals(AutoSearchUI.CAR)) {
+            if (AutoSearchUI.CAR.equals(vhType)) {
                 Car c = vf.car();
                 searchResult = "Name: " + c.name() + "  Features: " + c.features();
             }
-            if (vhType.equals(AutoSearchUI.SUV)) {
+            if (AutoSearchUI.SUV.equals(vhType)) {
                 SUV s = vf.suv();
                 searchResult = "Name: " + s.name() + "  Features: " + s.features();
             }

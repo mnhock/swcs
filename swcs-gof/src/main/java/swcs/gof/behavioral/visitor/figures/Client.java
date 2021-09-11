@@ -21,7 +21,7 @@ public class Client {
                 .mapToDouble(f -> f.accept(visitor))
                 .sum();
 
-        System.out.println(String.format("Total area: %f ", totalArea));
+        System.out.printf("Total area: %f %n", totalArea);
     }
 
     private static void calculatePerimeter(List<Figure> figures) {
@@ -31,6 +31,6 @@ public class Client {
                 .mapToDouble(f -> f.accept(visitor))
                 .sum();
 
-        System.out.println(String.format("Total perimeter: %f", totalPerimeter));
+        System.out.printf("Total perimeter: %f%n", totalPerimeter);
     }
 }

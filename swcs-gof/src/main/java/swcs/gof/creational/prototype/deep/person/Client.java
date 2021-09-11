@@ -4,24 +4,24 @@ public class Client {
 
     public static void main(String[] args) {
 
-        Person orginal = new Person("Orginal name", new Address("Orginal city", "Orginal street"));
-        print("Orginal", orginal);
+        Person original = new Person("Original name", new Address("Original city", "Original street"));
+        print("Original", original);
 
         // Clone as a deep copy
-        Person clone = orginal.clone();
+        Person clone = original.clone();
         print("Clone", clone);
 
         clone.name("Modified name");
         clone.address().city("Modified city");
 
         print("Clone after modification", clone);
-        print("Orginal after clone modification", orginal);
+        print("Original after clone modification", original);
     }
 
     private static void print(String object, Person person) {
-        System.out.println(String.format("%s: %s, %s",
+        System.out.printf("%s: %s, %s%n",
                 object,
                 person.name(),
-                person.address().city()));
+                person.address().city());
     }
 }

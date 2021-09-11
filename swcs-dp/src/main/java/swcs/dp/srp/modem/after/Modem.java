@@ -1,6 +1,6 @@
 package swcs.dp.srp.modem.after;
 
-public class Modem implements Connection, DataChannel {
+public final class Modem implements Connection, DataChannel {
     private final Connection connection;
     private final DataChannel dataChannel;
 

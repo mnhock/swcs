@@ -11,7 +11,7 @@ public abstract class AbstractAuthenticationFilter implements AuthenticationFilt
 
     public boolean nextFilter(Authentication authentication) {
         if (this.nextFilter != null) {
-            return this.nextFilter.isAuthentificated(authentication);
+            return this.nextFilter.isAuthenticated(authentication);
         }
 
         return false;

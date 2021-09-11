@@ -10,6 +10,6 @@ public class Follower implements Observer {
 
     @Override
     public void update(Object message) {
-        System.out.println(String.format("%s received message: %s", this.follower, message));
+        System.out.printf("%s received message: %s%n", this.follower, message);
     }
 }

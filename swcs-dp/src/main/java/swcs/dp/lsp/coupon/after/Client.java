@@ -23,7 +23,7 @@ public class Client {
         if (BigDecimal.ZERO.compareTo(price) == 0) { // Client code relies on Coupon implementation
             System.out.println("You get it for free!");
         } else {
-            System.out.println(String.format("Pay %f", price));
+            System.out.printf("Pay %f%n", price);
         }
     }
 }

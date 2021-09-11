@@ -23,7 +23,7 @@ final class CompressionFactory {
             throw new IllegalArgumentException(String.format("'%s' target format not supported!", type));
         }
 
-        System.out.println(String.format("CompressionFactory: '%s' compression", type));
+        System.out.printf("CompressionFactory: '%s' compression%n", type);
 
         return compression;
     }

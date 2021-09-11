@@ -14,7 +14,7 @@ public class ImmutableCar {
         this.manufactured = manufactured;
     }
 
-    public Date anufactured() {
+    public Date manufactured() {
         return this.manufactured;
     }
 

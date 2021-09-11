@@ -10,6 +10,6 @@ public class VolumeDown implements Command {
 
     @Override
     public void execute() {
-        this.device.volumenDown();
+        this.device.volumeDown();
     }
 }

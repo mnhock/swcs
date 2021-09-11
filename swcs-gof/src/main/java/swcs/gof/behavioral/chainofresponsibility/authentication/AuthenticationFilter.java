@@ -2,7 +2,7 @@ package swcs.gof.behavioral.chainofresponsibility.authentication;
 
 public interface AuthenticationFilter {
 
-    boolean isAuthentificated(Authentication authentication);
+    boolean isAuthenticated(Authentication authentication);
 
     void setNextFilter(AuthenticationFilter nextFilter);
 

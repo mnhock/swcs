@@ -4,7 +4,7 @@ public class Column extends Composite {
 
     @Override
     public void paint() {
-        System.out.println(String.format("  %s", Column.class.getSimpleName()));
+        System.out.printf("  %s%n", Column.class.getSimpleName());
         super.paint();
     }
 }

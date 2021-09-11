@@ -1,5 +1,6 @@
 package swcs.gof.behavioral.visitor.fridge;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class Milk implements FridgeElement {
@@ -10,6 +11,6 @@ public class Milk implements FridgeElement {
     }
 
     Date bestBeforeDate() {
-        return new Date(2021 - 1900, 0, 1);
+        return new Date(2021 - 1900, Calendar.JANUARY, 1);
     }
 }

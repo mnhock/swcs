@@ -4,7 +4,7 @@ public class VP extends DisciplinaryLeadership {
 
     @Override
     public void draw() {
-        System.out.println(String.format(" %s", VP.class.getSimpleName()));
+        System.out.printf(" %s%n", VP.class.getSimpleName());
         super.draw();
     }
 }

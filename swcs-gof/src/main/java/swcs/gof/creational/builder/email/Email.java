@@ -3,7 +3,7 @@ package swcs.gof.creational.builder.email;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Email {
+public final class Email {
 
     private final String subject;
     private final String message;
