@@ -2,7 +2,7 @@ package swcs.order.after;
 
 import java.io.Reader;
 
-public class XmlImporter implements Order.Importer {
+public class XmlImporter implements Importer {
 
     private final Reader reader;
 

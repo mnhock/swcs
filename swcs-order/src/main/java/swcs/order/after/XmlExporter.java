@@ -2,7 +2,7 @@ package swcs.order.after;
 
 import java.io.Writer;
 
-public class XmlExporter implements Order.Exporter {
+public class XmlExporter implements Exporter {
 
     private final Writer writer;
 

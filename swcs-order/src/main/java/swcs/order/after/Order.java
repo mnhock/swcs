@@ -27,11 +27,4 @@ public final class Order {
         destination.exportOrder(this);
     }
 
-    interface Importer {
-        Order importOrder();
-    }
-
-    interface Exporter {
-        void exportOrder(Order order);
-    }
 }

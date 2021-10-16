@@ -2,7 +2,7 @@ package swcs.order.after;
 
 import java.io.Writer;
 
-public class JsonExporter implements Order.Exporter {
+public class JsonExporter implements Exporter {
 
     private final Writer writer;
 

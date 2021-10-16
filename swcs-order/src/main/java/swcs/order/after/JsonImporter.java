@@ -2,7 +2,7 @@ package swcs.order.after;
 
 import java.io.Reader;
 
-public class JsonImporter implements Order.Importer {
+public class JsonImporter implements Importer {
 
     private final Reader reader;
 
