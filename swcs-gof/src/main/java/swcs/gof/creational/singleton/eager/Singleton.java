@@ -1,7 +1,7 @@
 package swcs.gof.creational.singleton.eager;
 
 public final class Singleton {
-    private static Singleton instance = new Singleton();
+    private static final Singleton instance = new Singleton();
 
     private Singleton() {
     }
