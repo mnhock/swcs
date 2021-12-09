@@ -49,7 +49,7 @@ A **Hands-on Guide** to Understand the Fundamentals of Software Craftsmanship an
 
 ## Elegant Java Book
 
-A **Hands-on Guide** to write Clean Code in Java. This book is a subset of the Book **Clean Code Fundamentals Book**.
+A **Hands-on Guide** to write Clean Code in Java. This book is a subset of the Book **Clean Code Fundamentals**.
 
 <a href="https://leanpub.com/elegant-java"><img src="https://d2sofvawe08yqg.cloudfront.net/elegant-java/s_hero?1638774931" alt="Elegant Java" width="250"/></a>
 
