@@ -33,7 +33,7 @@
 		<maven.build.timestamp.format>dd.MM.yyyy HH:mm</maven.build.timestamp.format>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<maven-compiler-plugin.version>3.9.0</maven-compiler-plugin.version>
+		<maven-compiler-plugin.version>3.10.0</maven-compiler-plugin.version>
 		<junit-jupiter.version>5.8.2</junit-jupiter.version>
 		<mockito.version>4.3.1</mockito.version>
 	</properties>
