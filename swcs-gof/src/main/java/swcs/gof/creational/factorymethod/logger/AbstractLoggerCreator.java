@@ -12,5 +12,5 @@ public abstract class AbstractLoggerCreator {
         return logger;
     }
 
-    public abstract Logger createLogger();
+    protected abstract Logger createLogger();
 }
