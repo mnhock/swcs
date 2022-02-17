@@ -42,6 +42,7 @@ public final class ImmutablePerson {
         private List<String> favoriteDishes;
 
         public Builder() {
+            this.favoriteDishes = new ArrayList<>();
         }
 
         public Builder(ImmutablePerson person) {
