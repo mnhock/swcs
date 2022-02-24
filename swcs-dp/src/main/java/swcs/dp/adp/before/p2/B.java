@@ -4,7 +4,9 @@ import swcs.dp.adp.before.p3.C;
 
 public class B {
 
-    public B() {
-        new C();
+    private final C c;
+
+    public B(C c) {
+        this.c = c;
     }
 }
