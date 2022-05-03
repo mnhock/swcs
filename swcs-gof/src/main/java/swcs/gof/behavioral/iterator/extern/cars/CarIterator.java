@@ -16,10 +16,6 @@ public class CarIterator implements java.util.Iterator<Car> {
 
     @Override
     public boolean hasNext() {
-        if (this.index >= this.cars.length || this.cars[this.index] == null) {
-            return false;
-        }
-
-        return true;
+        return this.index < this.cars.length && this.cars[this.index] != null;
     }
 }
