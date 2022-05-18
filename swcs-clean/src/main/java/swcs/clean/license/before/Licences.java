@@ -1,4 +1,4 @@
-package swsc.clean.license.before;
+package swcs.clean.license.before;
 
 import java.util.HashMap;
 import java.util.Map;
