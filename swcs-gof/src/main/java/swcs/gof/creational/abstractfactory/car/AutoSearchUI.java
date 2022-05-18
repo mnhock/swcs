@@ -192,10 +192,10 @@ class ButtonHandler implements ActionListener {
 
     }
 
-    public ButtonHandler() {
+    ButtonHandler() {
     }
 
-    public ButtonHandler(AutoSearchUI inObjAutoSearchUI) {
+    ButtonHandler(AutoSearchUI inObjAutoSearchUI) {
         this.objAutoSearchUI = inObjAutoSearchUI;
     }
 

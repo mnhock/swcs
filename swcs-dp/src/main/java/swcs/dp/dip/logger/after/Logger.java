@@ -3,7 +3,7 @@ package swcs.dp.dip.logger.after;
 class Logger {
     private final Loggable loggable;
 
-    public Logger(Loggable loggable) {
+    Logger(Loggable loggable) {
         this.loggable = loggable;
     }
 

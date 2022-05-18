@@ -3,7 +3,7 @@ package swcs.dp.dip.logger.before;
 class Logger {
     private final FileSystem fileSystem;
 
-    public Logger() {
+    Logger() {
         this.fileSystem = new FileSystem();
     }
 

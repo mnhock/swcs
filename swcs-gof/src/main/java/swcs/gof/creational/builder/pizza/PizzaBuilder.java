@@ -3,7 +3,7 @@ package swcs.gof.creational.builder.pizza;
 abstract class PizzaBuilder {
     private final Pizza pizza;
 
-    public PizzaBuilder() {
+    PizzaBuilder() {
         this.pizza = new Pizza();
     }
 

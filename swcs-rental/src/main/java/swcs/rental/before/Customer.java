@@ -12,7 +12,7 @@ class Customer {
         this.rentals.addElement(arg);
     }
 
-    public Customer(String name) {
+    Customer(String name) {
         this.name = name;
     }
 

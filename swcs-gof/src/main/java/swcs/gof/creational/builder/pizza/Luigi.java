@@ -3,7 +3,7 @@ package swcs.gof.creational.builder.pizza;
 class Luigi {
     private final PizzaBuilder pizzaBuilder;
 
-    public Luigi(PizzaBuilder pizzaBuilder) {
+    Luigi(PizzaBuilder pizzaBuilder) {
         this.pizzaBuilder = pizzaBuilder;
     }
 
