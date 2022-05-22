@@ -12,7 +12,7 @@ public final class Licences {
     }
 
     public String get(LicenceType licence) {
-        return licences.get(licence);
+        return this.licences.get(licence);
     }
 
     public void put(LicenceType licence, String value) {
