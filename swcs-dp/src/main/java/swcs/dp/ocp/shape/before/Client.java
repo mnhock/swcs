@@ -5,12 +5,8 @@ public class Client {
     public void draw(Shape[] shapes) {
         for (Shape shape : shapes) {
             switch (shape.type()) {
-            case Shape.SQUARE:
-                draw((Square) shape);
-                break;
-            case Shape.CIRCLE:
-                draw((Circle) shape);
-                break;
+            case Shape.SQUARE -> draw((Square) shape);
+            case Shape.CIRCLE -> draw((Circle) shape);
             }
         }
     }

@@ -39,7 +39,7 @@ public final class ImmutablePerson {
 
         private String name;
         private String city;
-        private List<String> favoriteDishes;
+        private final List<String> favoriteDishes;
 
         public Builder() {
             this.favoriteDishes = new ArrayList<>();

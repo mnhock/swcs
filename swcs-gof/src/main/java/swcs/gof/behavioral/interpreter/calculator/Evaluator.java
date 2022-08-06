@@ -18,7 +18,7 @@ public final class Evaluator {
         Expression last = null;
         String[] splitted = this.expression.split(" ");
 
-        for (int i = 0; i < splitted.length; i++) {
+        for (int i = 0, length = splitted.length; i < length; i++) {
             if ("+".equals(splitted[i])) {
                 last = new Plus(last, new Number(splitted[i + 1]));
                 i++;
