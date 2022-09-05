@@ -53,5 +53,9 @@ A **Hands-on Guide** to write Clean Code in Java. This book is a subset of the B
 
 <a href="https://leanpub.com/elegant-java"><img src="https://d2sofvawe08yqg.cloudfront.net/elegant-java/s_hero?1638774931" alt="Elegant Java" width="250"/></a>
 
+## Books Bundle
+
+You can buy both books as a bundle [here](https://leanpub.com/b/javacleancodefundamentals).
+
 
 [1]: EXERCISES.md
