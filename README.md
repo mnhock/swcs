@@ -14,7 +14,7 @@ Students acquire in-depth knowledge and skills for the analysis, assessment, and
 ## Key Qualifications
 Ability to think complex, ability to work independently, analysis and solution of problems.
 
-## Course Contents
+## Course Content
 Software testing is not limited to a specific phase of the project. Already during the coding phase or the system build process-critical and difficult to find software defects in the source code can be detected. The necessary procedures and tools are presented in the lecture.    
 
 Among other things, the following topics will be covered:
