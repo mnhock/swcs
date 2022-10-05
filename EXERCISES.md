@@ -18,5 +18,6 @@
 
 
 ## Design Patterns
-1. Code:  https://github.com/mnhock/swcs/tree/master/swcs-rental
-2. Code:  https://github.com/mnhock/swcs/tree/master/swcs-compression
+1. Video: https://www.youtube.com/watch?v=lZG74WbnhoE
+2. Code:  https://github.com/mnhock/swcs/tree/master/swcs-rental
+3. Code:  https://github.com/mnhock/swcs/tree/master/swcs-compression
