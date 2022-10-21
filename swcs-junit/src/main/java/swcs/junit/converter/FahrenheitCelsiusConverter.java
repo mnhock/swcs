@@ -5,11 +5,11 @@ public final class FahrenheitCelsiusConverter {
     private FahrenheitCelsiusConverter() {
     }
 
-    public static int toCelsius(int fahrenheit) {
+    public static float toCelsius(float fahrenheit) {
         return ((fahrenheit - 32) * 5) / 9;
     }
 
-    public static int toFahrenheit(int celsius) {
+    public static float toFahrenheit(float celsius) {
         return ((celsius * 9) / 5) + 32;
     }
 }
