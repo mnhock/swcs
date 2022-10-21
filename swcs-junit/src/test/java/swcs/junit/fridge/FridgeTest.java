@@ -61,7 +61,7 @@ class FridgeTest {
     }
 
     @Test
-    void shouldThrowNSIEWhenTakingProductWhichWasNeverAdded() throws NoSuchItemException {
+    void shouldThrowNSIEWhenTakingProductWhichWasNeverAdded() {
         assertThrows(NoSuchItemException.class, () -> this.fridge.take(BEER));
     }
 
