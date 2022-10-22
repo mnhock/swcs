@@ -15,13 +15,13 @@ public class RaceResultsService {
         this.clients.add(client);
     }
 
+    public void removeSubscriber(Client client) {
+        this.clients.remove(client);
+    }
+
     public void send(Message message) {
         for (Client client : this.clients) {
             client.receive(message);
         }
-    }
-
-    public void removeSubscriber(Client client) {
-        this.clients.remove(client);
     }
 }
