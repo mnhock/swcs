@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.composite.organizationchart;
+package swcs.gof.structural.composite.organizationchart;
 
 public class CTO extends DisciplinaryLeadership {
 

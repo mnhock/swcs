@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.composite.graphic;
+package swcs.gof.structural.composite.graphic;
 
 import java.util.ArrayList;
 import java.util.List;

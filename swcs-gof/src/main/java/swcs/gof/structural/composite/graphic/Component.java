@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.composite.graphic;
+package swcs.gof.structural.composite.graphic;
 
 public interface Component {
     void paint();

@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.composite.graphic;
+package swcs.gof.structural.composite.graphic;
 
 public class Client {
     public static void main(String[] args) {

@@ -29,8 +29,8 @@ Among other things, the following topics will be covered:
 - Software tests with JUnit, Mockito, Hamcrest, AssertJ and Testcontainers
 - Checking the test code coverage
 - CI/CD
-- Design Principles
-- Design Patterns (GoF)
+- [Design Principles][1]
+- [Design Patterns (GoF)][2]
 
 ## Installation
 1. `clone https://github.com/mnhock/swcs.git`
@@ -38,7 +38,7 @@ Among other things, the following topics will be covered:
 
 ## Exercises
 
-Exercises can be found [here][1].
+Exercises can be found [here][3].
 
 ## Clean Code Fundamentals Book
 
@@ -58,4 +58,6 @@ A **Hands-on Guide** to write Clean Code in Java. This book is a subset of the B
 You can buy both books as a bundle [here](https://leanpub.com/b/javacleancodefundamentals).
 
 
-[1]: EXERCISES.md
+[1]: swcs-dp/README.md
+[2]: swcs-gof/README.md
+[3]: EXERCISES.md
