@@ -1,10 +1,10 @@
 ## SOLID Design Principles
 
-* [SRP][1]
-* [OCP][2]
-* [LSP][3]
-* [ISP][4]
-* [DIP][5]
+* [Single Responsibility Principle (SRP)][1]
+* [Open Closed Principle (OCP)][2]
+* [Liskov Substitution Principle (LSP)][3]
+* [Interface Segregation Principle (ISP)][4]
+* [Dependency Inversion Principle (DIP)][5]
 
 [1]: src/main/java/swcs/dp/srp
 [2]: src/main/java/swcs/dp/ocp
