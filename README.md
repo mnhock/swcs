@@ -44,14 +44,14 @@ Exercises can be found [here][3].
 
 A **Hands-on Guide** to Understand the Fundamentals of Software Craftsmanship and Clean Code in Java.
 
-<a href="https://leanpub.com/clean-code-fundamentals"><img src="https://d2sofvawe08yqg.cloudfront.net/clean-code-fundamentals/hero2x?1620611635" alt="Clean Code Fundamentals" width="250"/></a>
+<a href="https://leanpub.com/clean-code-fundamentals"><img src="https://d2sofvawe08yqg.cloudfront.net/clean-code-fundamentals/s_hero2x?1669711365" alt="Clean Code Fundamentals" width="250"/></a>
 
 
 ## Elegant Java Book
 
 A **Hands-on Guide** to write Clean Code in Java. This book is a subset of the Book **Clean Code Fundamentals**.
 
-<a href="https://leanpub.com/elegant-java"><img src="https://d2sofvawe08yqg.cloudfront.net/elegant-java/s_hero?1638774931" alt="Elegant Java" width="250"/></a>
+<a href="https://leanpub.com/elegant-java"><img src="https://d2sofvawe08yqg.cloudfront.net/elegant-java/s_hero2x?1638774931" alt="Elegant Java" width="250"/></a>
 
 ## Books Bundle
 
