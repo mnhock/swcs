@@ -54,7 +54,7 @@
 [18]: src/main/java/swcs/gof/behavioral/command
 [19]: src/main/java/swcs/gof/behavioral/interpreter
 [20]: src/main/java/swcs/gof/behavioral/iterator
-[21]: src/main/java/swcs/gof/behavioral/meditor
+[21]: src/main/java/swcs/gof/behavioral/mediator
 [22]: src/main/java/swcs/gof/behavioral/memento
 [23]: src/main/java/swcs/gof/behavioral/visitor
 

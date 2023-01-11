@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.meditor.aircraft;
+package swcs.gof.behavioral.mediator.aircraft;
 
 import java.util.HashMap;
 import java.util.LinkedList;

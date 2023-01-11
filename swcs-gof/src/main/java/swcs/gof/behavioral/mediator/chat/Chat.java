@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.meditor.chat;
+package swcs.gof.behavioral.mediator.chat;
 
 import java.util.ArrayList;
 import java.util.List;

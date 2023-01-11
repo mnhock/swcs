@@ -1,4 +1,4 @@
-package swcs.gof.behavioral.meditor.aircraft;
+package swcs.gof.behavioral.mediator.aircraft;
 
 public class Client {
 
