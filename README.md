@@ -28,7 +28,7 @@ Among other things, the following topics will be covered:
 - Compliance and verification of Java code conventions
 - Static software testing, especially review techniques and static program analysis 
 - Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, ArchUnit, jQAssistant, Renovate and Dependency-Track
-- Software tests with JUnit, Mockito, Hamcrest, AssertJ and Testcontainers
+- Software tests with JUnit, Mockito, Hamcrest, AssertJ, Data Faker, Instancio and Testcontainers
 - Checking the test code coverage
 - CI/CD
 - [Design Principles][1]
