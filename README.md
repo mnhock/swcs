@@ -30,6 +30,7 @@ Among other things, the following topics will be covered:
 - Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, ArchUnit, jQAssistant, Renovate and Dependency-Track
 - Software tests with JUnit, Mockito, Hamcrest, AssertJ, Data Faker, Instancio and Testcontainers
 - Checking the test code coverage
+- Naikan
 - CI/CD
 - [Design Principles][1]
 - [Design Patterns (GoF)][2]
