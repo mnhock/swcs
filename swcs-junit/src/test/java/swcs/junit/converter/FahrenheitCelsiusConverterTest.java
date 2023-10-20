@@ -16,7 +16,6 @@ class FahrenheitCelsiusConverterTest {
                 () -> assertEquals(26.6, FahrenheitCelsiusConverter.toFahrenheit(-3), 1),
                 () -> assertEquals(-167.8, FahrenheitCelsiusConverter.toFahrenheit(-111), 1)
         );
-
     }
 
     @Test
