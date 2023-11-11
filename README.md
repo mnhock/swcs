@@ -34,7 +34,7 @@ Among other things, the following topics will be covered:
 - CI/CD
 - [Design Principles][1]
 - [Design Patterns (GoF)][2]
-PS
+
 ## Installation
 1. `clone https://github.com/mnhock/swcs.git`
 2. Import as Maven project
