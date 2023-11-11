@@ -27,14 +27,14 @@ Among other things, the following topics will be covered:
 - Overview of Principles, Best Practices, and Code Smells 
 - Compliance and verification of Java code conventions
 - Static software testing, especially review techniques and static program analysis 
-- Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, ArchUnit, jQAssistant, Renovate and Dependency-Track
+- Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, Spotless, EqualsVerifier, ArchUnit, jQAssistant, Renovate and Dependency-Track
 - Software tests with JUnit, Mockito, Hamcrest, AssertJ, Data Faker, Instancio and Testcontainers
 - Checking the test code coverage
 - [Naikan](https://github.com/enofex/naikan)
 - CI/CD
 - [Design Principles][1]
 - [Design Patterns (GoF)][2]
-
+PS
 ## Installation
 1. `clone https://github.com/mnhock/swcs.git`
 2. Import as Maven project
