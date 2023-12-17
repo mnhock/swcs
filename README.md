@@ -1,6 +1,8 @@
 ## SWCS
 
-Code for the course **Software Craftsmanship and Clean Code** at the universities:
+SWCS - **Software Craftsmanship and Clean Code** - is a course offered at the Technische Hochschule Nürnberg and Hochschule Ansbach. The program aims to deepen students knowledge and practical skills in software quality, and familiarize them with tools and procedures used in industry. 
+
+This repository containts the code for the course **Software Craftsmanship and Clean Code** at the universities:
 
 * https://www.th-nuernberg.de/
 * https://www.hs-ansbach.de/
@@ -25,9 +27,10 @@ Among other things, the following topics will be covered:
 - Overview of Principles, Best Practices, and Code Smells 
 - Compliance and verification of Java code conventions
 - Static software testing, especially review techniques and static program analysis 
-- Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, ArchUnit, jQAssistant, Renovate and Dependency-Track
-- Software tests with JUnit, Mockito, Hamcrest, AssertJ and Testcontainers
+- Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, Spotless, EqualsVerifier, ArchUnit, jQAssistant, Renovate and Dependency-Track
+- Software tests with JUnit, Mockito, Hamcrest, AssertJ, Data Faker, Instancio and Testcontainers
 - Checking the test code coverage
+- Backstage, [Naikan](https://github.com/enofex/naikan)
 - CI/CD
 - [Design Principles][1]
 - [Design Patterns (GoF)][2]
