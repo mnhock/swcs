@@ -1,6 +1,6 @@
 package swcs.dp.ocp.loanvalidator.before;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         LoanRequestHandler loanRequestHandler = new LoanRequestHandler(1001, 1);

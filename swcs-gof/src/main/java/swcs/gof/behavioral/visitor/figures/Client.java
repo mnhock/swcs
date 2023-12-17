@@ -2,7 +2,7 @@ package swcs.gof.behavioral.visitor.figures;
 
 import java.util.List;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         List<Figure> figures = List.of(

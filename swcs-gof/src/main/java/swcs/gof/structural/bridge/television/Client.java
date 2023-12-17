@@ -1,6 +1,6 @@
 package swcs.gof.structural.bridge.television;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         useSamsung();

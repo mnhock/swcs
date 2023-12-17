@@ -1,6 +1,6 @@
 package swcs.gof.structural.composite.organizationchart;
 
-public class Client {
+class Client {
     public static void main(String[] args) {
         DisciplinaryLeadership cto = new CTO();
         DisciplinaryLeadership vp1 = new VP();

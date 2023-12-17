@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.interpreter.hexbinary;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         print("42 in Binary");

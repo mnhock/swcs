@@ -3,7 +3,7 @@ package swcs.gof.behavioral.command.filesystem;
 import java.io.File;
 import java.util.List;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         FileSystem fs = new FileSystem();

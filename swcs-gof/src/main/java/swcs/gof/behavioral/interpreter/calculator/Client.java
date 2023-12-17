@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.interpreter.calculator;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         Evaluator evaluator = new Evaluator("5 - 3 + 29 - 1");

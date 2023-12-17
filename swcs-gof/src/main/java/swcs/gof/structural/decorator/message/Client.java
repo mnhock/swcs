@@ -1,6 +1,6 @@
 package swcs.gof.structural.decorator.message;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         new DefaultMessage().print("DefaultMessage");

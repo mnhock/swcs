@@ -1,6 +1,6 @@
 package swcs.gof.structural.proxy.imageviewer;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         ImageViewer beer = new ImageViewerProxy("./img/beer.png");

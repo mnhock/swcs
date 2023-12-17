@@ -2,7 +2,7 @@ package swcs.dp.lsp.coupon.after;
 
 import java.math.BigDecimal;
 
-public class Client {
+class Client {
 
     private static final BigDecimal REGULAR_PRICE = BigDecimal.valueOf(8.99);
 

@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.chainofresponsibility.authentication;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         AuthenticationFilter digestFilter = new DigestAuthenticationFilter();

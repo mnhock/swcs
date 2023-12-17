@@ -3,7 +3,7 @@ package swcs.gof.behavioral.visitor.fridge;
 import java.time.LocalDate;
 import java.util.List;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         List<FridgeElement> fridge = List.of(

@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.memento.balance;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         CareTaker careTaker = new CareTaker();

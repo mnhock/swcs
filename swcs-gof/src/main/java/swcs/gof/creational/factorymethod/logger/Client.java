@@ -1,6 +1,6 @@
 package swcs.gof.creational.factorymethod.logger;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         AbstractLoggerCreator creator = new ConsoleLoggerCreator();

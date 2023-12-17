@@ -1,6 +1,6 @@
 package swcs.gof.creational.builder.meal;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         MealDirector director = new MealDirector();

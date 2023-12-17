@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.observer.datastore;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         Screen screen = new Screen();

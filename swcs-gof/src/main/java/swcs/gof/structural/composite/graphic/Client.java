@@ -1,6 +1,6 @@
 package swcs.gof.structural.composite.graphic;
 
-public class Client {
+class Client {
     public static void main(String[] args) {
         Composite sheet = new Sheet();
 

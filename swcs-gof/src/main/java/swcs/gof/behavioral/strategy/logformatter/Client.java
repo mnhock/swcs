@@ -3,7 +3,7 @@ package swcs.gof.behavioral.strategy.logformatter;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         GitConsole console = new GitConsole(new FullLogFormatter());

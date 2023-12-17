@@ -1,6 +1,6 @@
 package swcs.gof.creational.abstractfactory.car;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         VehicleFactory factory = VehicleFactory.vehicleFactory(VehicleFactory.NON_LUXURY_VEHICLE);

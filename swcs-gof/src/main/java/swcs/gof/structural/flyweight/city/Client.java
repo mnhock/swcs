@@ -1,6 +1,6 @@
 package swcs.gof.structural.flyweight.city;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         CityFactory factory = new CityFactory();

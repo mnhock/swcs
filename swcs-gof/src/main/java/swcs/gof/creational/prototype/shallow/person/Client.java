@@ -1,6 +1,6 @@
 package swcs.gof.creational.prototype.shallow.person;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
 

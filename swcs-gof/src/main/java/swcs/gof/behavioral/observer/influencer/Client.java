@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.observer.influencer;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         Influencer influencer = new Influencer("Java");

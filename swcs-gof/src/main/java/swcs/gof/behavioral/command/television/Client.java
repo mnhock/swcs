@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.command.television;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         Television television = new Television();

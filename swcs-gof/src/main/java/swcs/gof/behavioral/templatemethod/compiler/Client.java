@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.templatemethod.compiler;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         CrossCompiler iphone = new IPhoneCompiler();

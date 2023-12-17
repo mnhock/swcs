@@ -1,6 +1,6 @@
 package swcs.gof.structural.facade.smarthome;
 
-public class Client {
+class Client {
 
   public static void main(String[] args) {
     SmartHomeFacade smartHomeFacade = new SmartHomeFacade();

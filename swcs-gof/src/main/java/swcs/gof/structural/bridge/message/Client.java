@@ -1,6 +1,6 @@
 package swcs.gof.structural.bridge.message;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         sendSms();

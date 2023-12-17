@@ -2,7 +2,7 @@ package swcs.gof.behavioral.iterator.extern.cars;
 
 import java.util.Iterator;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         Car[] cars = new Car[4];

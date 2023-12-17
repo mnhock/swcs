@@ -1,6 +1,6 @@
 package swcs.gof.creational.singleton.lazy;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         System.out.println(Singleton.getInstance().toString());

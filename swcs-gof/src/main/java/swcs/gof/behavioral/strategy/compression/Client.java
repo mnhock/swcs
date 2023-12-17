@@ -2,7 +2,7 @@ package swcs.gof.behavioral.strategy.compression;
 
 import java.util.ArrayList;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         CompressionContext ctx = new CompressionContext();

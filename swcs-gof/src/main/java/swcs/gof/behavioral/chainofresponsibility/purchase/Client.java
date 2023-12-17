@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.chainofresponsibility.purchase;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         Employee cto = new CTO();

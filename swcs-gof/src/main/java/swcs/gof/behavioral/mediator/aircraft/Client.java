@@ -1,6 +1,6 @@
 package swcs.gof.behavioral.mediator.aircraft;
 
-public class Client {
+class Client {
 
     public static void main(String[] args) {
         AircraftMediator mediator = new AircraftTrafficControlRoom();
