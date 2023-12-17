@@ -28,7 +28,7 @@ class CarSearchTest {
 
         List<Car> sportCars = search.findSportCars();
         assertEquals(1, sportCars.size());
-        assertEquals(car2, sportCars.get(0));
+        assertEquals(car2, sportCars.getFirst());
     }
 
 }

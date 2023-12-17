@@ -1,6 +1,7 @@
 package swcs.junit.football;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -30,7 +31,7 @@ class FootballTeamTest {
     void shouldBePossibleToCompareTeams() {
         FootballTeam team = new FootballTeam(ANY_NUMBER);
 
-        assertTrue(team instanceof Comparable, "Should be possible to compare teams");
+      assertInstanceOf(Comparable.class, team, "Should be possible to compare teams");
     }
 
     @Test

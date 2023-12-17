@@ -10,7 +10,7 @@ public class LicenceType {
     }
 
     public String type() {
-        return type;
+        return this.type;
     }
 
     @Override
