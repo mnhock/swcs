@@ -4,7 +4,7 @@ public abstract class Message {
 
     private final MessageSender messageSender;
 
-    public Message(MessageSender messageSender) {
+    protected Message(MessageSender messageSender) {
         this.messageSender = messageSender;
     }
 

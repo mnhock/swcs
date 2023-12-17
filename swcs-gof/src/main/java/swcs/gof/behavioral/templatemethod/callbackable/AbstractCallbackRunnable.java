@@ -6,7 +6,7 @@ abstract class AbstractCallbackRunnable implements Callbackable {
 
     private final LocalDateTime submittedTime;
 
-    private Status status = Status.UNKNOWN;
+    private Status status;
     private LocalDateTime startedTime;
     private LocalDateTime finishedTime;
 

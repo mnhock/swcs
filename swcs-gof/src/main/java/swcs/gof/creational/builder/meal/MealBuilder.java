@@ -4,7 +4,7 @@ public abstract class MealBuilder {
 
     private final Meal meal;
 
-    public MealBuilder() {
+    protected MealBuilder() {
         this.meal = new Meal();
     }
 

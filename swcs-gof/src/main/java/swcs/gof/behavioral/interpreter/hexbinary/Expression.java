@@ -4,7 +4,7 @@ public abstract class Expression {
 
     private final int value;
 
-    public Expression(int value) {
+    protected Expression(int value) {
         this.value = value;
     }
 

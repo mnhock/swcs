@@ -10,6 +10,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+import java.io.Serial;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -19,6 +20,7 @@ import javax.swing.SwingUtilities;
 
 public class AutoSearchUI extends JFrame {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     public static final String NEWLINE = "\n";

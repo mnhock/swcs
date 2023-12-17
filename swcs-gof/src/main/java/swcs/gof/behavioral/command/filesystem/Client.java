@@ -7,7 +7,7 @@ class Client {
 
     public static void main(String[] args) {
         FileSystem fs = new FileSystem();
-        BatchFileSystemExecuter executer = new BatchFileSystemExecuter(fs);
+        BatchFileSystemExecutor executor = new BatchFileSystemExecutor(fs);
 
         List<Command> commands = List.of(
                 new CreateCommand(new File("file.tmp")),
@@ -15,6 +15,6 @@ class Client {
                 new CreateCommand(new File("secret.txt")),
                 new MoveCommand(new File("secret.txt"), new File("topsecret.txt")));
 
-        executer.execute(commands);
+        executor.execute(commands);
     }
 }

@@ -1,14 +1,5 @@
 package swcs.gof.behavioral.chainofresponsibility.purchase;
 
-public final class Purchase {
+public record Purchase(double amount) {
 
-    private final double amount;
-
-    public Purchase(double amount) {
-        this.amount = amount;
-    }
-
-    public double amount() {
-        return this.amount;
-    }
 }

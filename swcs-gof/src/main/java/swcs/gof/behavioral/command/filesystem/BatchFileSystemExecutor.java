@@ -2,11 +2,11 @@ package swcs.gof.behavioral.command.filesystem;
 
 import java.util.List;
 
-public class BatchFileSystemExecuter {
+public class BatchFileSystemExecutor {
 
     private final FileSystem fs;
 
-    public BatchFileSystemExecuter(FileSystem fs) {
+    public BatchFileSystemExecutor(FileSystem fs) {
         this.fs = fs;
     }
 
