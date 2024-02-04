@@ -12,7 +12,7 @@ class Bird {
     }
 
     public void eat() {
-        System.out.println(name + " is eating.");
+        System.out.println(this.name + " is eating.");
     }
 
     public void move() {

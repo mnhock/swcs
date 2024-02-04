@@ -9,8 +9,7 @@ public class CsvFormatter implements CsvFormattable {
     @Override
     public String formatCsv(String text, String separator) {
         if (text != null && separator != null) {
-            return Stream.of(text.split(Pattern.quote(separator)))
-                    .collect(Collectors.joining(", "));
+            return String.join(", ", text.split(Pattern.quote(separator)));
         }
 
         return null;
