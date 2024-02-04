@@ -1,6 +1,6 @@
 ## SWCS
 
-SWCS - **Software Craftsmanship and Clean Code** - is a course offered at the University Nürnberg and the University Ansbach. The program aims to deepen students knowledge and practical skills in software quality, and familiarize them with tools and procedures used in industry. 
+SWCS - **Software Craftsmanship and Clean Code** - is a course offered at the University Nuernberg and the University Ansbach. The program aims to deepen students knowledge and practical skills in software quality, and familiarize them with tools and procedures used in industry. 
 
 This repository containts the code for the course **Software Craftsmanship and Clean Code** at the universities:
 
