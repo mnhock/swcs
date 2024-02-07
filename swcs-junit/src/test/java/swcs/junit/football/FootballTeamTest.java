@@ -31,7 +31,7 @@ class FootballTeamTest {
     void shouldBePossibleToCompareTeams() {
         FootballTeam team = new FootballTeam(ANY_NUMBER);
 
-      assertInstanceOf(Comparable.class, team, "Should be possible to compare teams");
+        assertInstanceOf(Comparable.class, team, "Should be possible to compare teams");
     }
 
     @Test
