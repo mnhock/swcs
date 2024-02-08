@@ -12,9 +12,8 @@
 1. Code: https://github.com/mnhock/swcs/tree/master/swcs-mockito
 
 ## Design Principles
-1. Video: https://www.youtube.com/watch?v=XgoldEoK-Rw
-2. Code:  https://github.com/mnhock/swcs/tree/master/swcs-authentication
-3. Code:  https://github.com/mnhock/swcs/tree/master/swcs-order
+1. Code:  https://github.com/mnhock/swcs/tree/master/swcs-authentication
+2. Code:  https://github.com/mnhock/swcs/tree/master/swcs-order
 
 
 ## Design Patterns
