@@ -30,7 +30,7 @@ Among other things, the following topics will be covered:
 - Ensure software quality with tools such as SonarQube, PMD, SpotBugs, Checkstyle, Spotless, EqualsVerifier, ArchUnit, jQAssistant, Renovate and Dependency-Track
 - Software tests with [JUnit](https://junit.org/junit5/), [Mockito](https://site.mockito.org/), [Hamcrest](https://hamcrest.org/), [AssertJ](https://assertj.github.io/doc/), [Data Faker](https://www.datafaker.net/), [Instancio](https://www.instancio.org/) and [Testcontainers](https://testcontainers.com/)
 - Checking the test code coverage
-- (Backstage)[https://backstage.io/], [Naikan](https://github.com/enofex/naikan)
+- [Backstage](https://backstage.io/), [Naikan](https://github.com/enofex/naikan)
 - CI/CD
 - [Design Principles][1]
 - [Design Patterns (GoF)][2]
