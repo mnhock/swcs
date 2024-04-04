@@ -1,8 +1,6 @@
 package swcs.gof.structural.adapter.textformatter;
 
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class CsvFormatter implements CsvFormattable {
 
