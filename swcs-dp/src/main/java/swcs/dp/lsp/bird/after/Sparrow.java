@@ -1,7 +1,7 @@
 package swcs.dp.lsp.bird.after;
 
 class Sparrow extends Bird {
-    public Sparrow(String name) {
+    Sparrow(String name) {
         super(name);
     }
 
