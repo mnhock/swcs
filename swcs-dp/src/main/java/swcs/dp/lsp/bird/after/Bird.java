@@ -16,6 +16,6 @@ class Bird {
     }
 
     public void move() {
-        System.out.println(name + " is moving.");
+        System.out.println(this.name + " is moving.");
     }
 }

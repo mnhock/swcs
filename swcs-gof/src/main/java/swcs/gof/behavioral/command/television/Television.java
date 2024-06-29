@@ -2,7 +2,7 @@ package swcs.gof.behavioral.command.television;
 
 public class Television {
 
-    private int volume = 0;
+    private int volume;
 
     public void on() {
         System.out.println("TV is on");

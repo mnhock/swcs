@@ -3,7 +3,7 @@ package swcs.gof.behavioral.iterator.extern.cars;
 public class CarIterator implements java.util.Iterator<Car> {
 
     private final Car[] cars;
-    private int index = 0;
+    private int index;
 
     public CarIterator(Car[] cars) {
         this.cars = cars;

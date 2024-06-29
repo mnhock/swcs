@@ -1,7 +1,7 @@
 package swcs.gof.structural.decorator.window;
 
 public class ScrollableWindow extends DecoratedWindow {
-    private Object scrollBar = null;
+    private Object scrollBar;
 
     public ScrollableWindow(Window window) {
         super(window);
