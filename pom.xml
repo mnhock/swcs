@@ -36,6 +36,7 @@
 		<maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
 		<junit-jupiter.version>5.11.1</junit-jupiter.version>
 		<mockito.version>5.14.1</mockito.version>
+		<taikai.version>1.3.0</taikai.version>
 	</properties>
 
 	<build>
@@ -68,6 +69,12 @@
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-junit-jupiter</artifactId>
 			<version>${mockito.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.enofex</groupId>
+			<artifactId>taikai</artifactId>
+			<version>${taikai.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
