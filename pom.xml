@@ -36,7 +36,7 @@
 		<maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
 		<junit-jupiter.version>5.11.3</junit-jupiter.version>
 		<mockito.version>5.14.2</mockito.version>
-		<taikai.version>1.4.0</taikai.version>
+		<taikai.version>1.5.0</taikai.version>
 	</properties>
 
 	<build>
