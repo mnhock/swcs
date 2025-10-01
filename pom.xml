@@ -34,7 +34,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
-		<junit-jupiter.version>5.13.4</junit-jupiter.version>
+		<junit-jupiter.version>6.0.0</junit-jupiter.version>
 		<mockito.version>5.20.0</mockito.version>
 		<taikai.version>1.37.0</taikai.version>
 	</properties>
