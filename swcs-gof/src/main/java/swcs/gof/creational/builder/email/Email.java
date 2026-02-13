@@ -41,7 +41,7 @@ public final class Email {
         private String signature;
         private final Set<String> recipients;
 
-        public Builder() {
+        private Builder() {
             this.recipients = new HashSet<>();
         }
 
