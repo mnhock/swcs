@@ -1,7 +1,7 @@
 package swcs.dp.lsp.bird.before;
 
 class Penguin extends Bird {
-    public Penguin(String name) {
+    Penguin(String name) {
         super(name);
     }
 

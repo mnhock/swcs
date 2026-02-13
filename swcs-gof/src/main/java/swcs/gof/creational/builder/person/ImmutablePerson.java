@@ -39,10 +39,9 @@ public final class ImmutablePerson {
 
         private String name;
         private String city;
-        private List<String> favoriteDishes;
+        private final List<String> favoriteDishes = new ArrayList<>();
 
         private Builder() {
-            this.favoriteDishes = new ArrayList<>();
         }
 
         private Builder(ImmutablePerson person) {
