@@ -12,7 +12,7 @@ public final class ImmutablePerson {
     private ImmutablePerson(Builder builder) {
         this.name = builder.name;
         this.city = builder.city;
-        this.favoriteDishes = builder.favoriteDishes;
+        this.favoriteDishes = List.copyOf(builder.favoriteDishes);
     }
 
     public String name() {
@@ -24,7 +24,7 @@ public final class ImmutablePerson {
     }
 
     public List<String> favoriteDishes() {
-        return this.favoriteDishes != null ? new ArrayList<>(this.favoriteDishes) : null;
+        return this.favoriteDishes;
     }
 
     public Builder toBuilder() {
@@ -39,16 +39,16 @@ public final class ImmutablePerson {
 
         private String name;
         private String city;
-        private final List<String> favoriteDishes;
+        private List<String> favoriteDishes;
 
-        public Builder() {
+        private Builder() {
             this.favoriteDishes = new ArrayList<>();
         }
 
-        public Builder(ImmutablePerson person) {
+        private Builder(ImmutablePerson person) {
             this.name = person.name;
             this.city = person.city;
-            this.favoriteDishes = person.favoriteDishes != null ? new ArrayList<>(person.favoriteDishes) : null;
+            this.favoriteDishes.addAll(person.favoriteDishes);
         }
 
         public Builder withName(String name) {
