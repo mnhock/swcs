@@ -5,8 +5,9 @@
 2. Code:  https://github.com/mnhock/swcs/tree/master/swcs-clean
 
 ## JUnit
-1. Video: https://www.youtube.com/watch?v=fr1E9aVnBxw
-2. Code:  https://github.com/mnhock/swcs/tree/master/swcs-junit
+1. Video: https://www.youtube.com/watch?v=fr1E9aVnBxw (JUnit)
+2. Video: https://www.youtube.com/watch?v=asAxisu6EQ0 (Taikai)
+3. Code:  https://github.com/mnhock/swcs/tree/master/swcs-junit
 
 ## Mockito
 1. Code: https://github.com/mnhock/swcs/tree/master/swcs-mockito
